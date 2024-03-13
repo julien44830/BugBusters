@@ -1,0 +1,45 @@
+:root{
+    --red-color:#8D0000;
+    --moutard-color: #C88500;
+    --background-color: #faf3e6;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-color: var(--background-color);
+    padding: 10%;
+}
+
+section.section-article{
+    background-color: var(--moutard-color);
+    border-radius: 10px;
+}
+
+section>section>article>img{
+    width: 400px;
+}
+
+section>section>article.describe{
+    width: 400px;
+}
+
+section>section>article{
+    display: inline-block;
+}
+
+.note{
+    width: 50px;
+}
+
+/* section>section>article.map{
+    width: 80%;
+} */
+
+section>section>article>a>img.map{
+    width: 800px;
+}
