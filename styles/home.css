@@ -1,0 +1,30 @@
+* {
+    margin: 0rem;
+}
+main{
+    background-color: #faf3e6;
+}
+.filtre {
+    background-color: #8d0008;
+    color: #FFFFFF;
+    width: 15rem;
+}
+ul {
+    display: inline;
+
+}
+li {
+    list-style: none;
+    box-shadow: 1rem;
+    border-radius: 5px;
+    width: 45%;
+	margin: 5rem 5rem 5rem 5rem;
+    justify-self: start; 
+    display: inline block;
+    text-align: start;
+    
+
+}
+li img {
+    width: 2rem;
+}
