@@ -1,33 +1,56 @@
-* {
-    margin: 0;
-    padding: 0;
+:root {
+    --primary-background-color: rgba(141, 0, 0);
+    --body-background-color: rgb(199, 133, 0, 10%);
+    --main-background-color: rgb(199, 133, 0, 70%);
+    --primary-font-color: #FFFF;
+    --secondary-font-color: #0000;
+
+    --primary-font-family: "Crimson Text", serif;
+    --secondary-font-family: "Montserrat", sans-serif;
 }
 
 body {
-    background: #faf3e6;
+    box-sizing: border-box;
+    background-color: var(--body-background-color);
+    margin: 0px;
+    height: 100%;
 }
 
 ul>li {
     list-style: none;
 }
 
-.backGround {
-    position: relative;
-    top: 76px;
-    width: 100%;
-    height: 700px;
+.background {
     background-image: url("../assets/background/coquilles-pates-italiennes-aux-champignons-courgettes-sauce-tomate1.jpg");
-    background-size: cover;
+    position: relative;
+    top: 20px;
+    width: auto;
+    height: 50rem;
+    background-size: auto;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
-.backGround>img {
+
+.background>img {
     position: relative;
-    top: 30%;
-    left: 10%;
-    width: 20%;
+    top: 15rem;
+    left: 10rem;
+    width: 15rem;
     height: auto;
+    border-radius: 10px;
+}
+
+.background>h2 {
+    color: white;
+    position: relative;
+    top: 15rem;
+    left: 10rem;
+    width : 20%;
+    text-align: center;
 }
 
 .slider_contener {
@@ -77,6 +100,8 @@ ul>li {
     border-radius: 10px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .show_article_reverse {
@@ -89,5 +114,6 @@ ul>li {
 
 .show_article>li>img {
     width: 100%;
+    height:100%;
     border-radius: 10px 0 0 10px;
 }
