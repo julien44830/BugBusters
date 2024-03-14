@@ -9,9 +9,9 @@
     --secondary-font-family: "Montserrat", sans-serif;
 }
 
-* {
-    /* border: solid 1px black; */
-}
+/* * {
+    border: solid 1px black;
+} */
 
 body {
     box-sizing: border-box;
@@ -30,6 +30,7 @@ main {
     flex-direction: column;
 }
 
+/* main  */
 div {
     display: flex;
     flex-direction: row;
@@ -42,6 +43,8 @@ h2 {
     color: var(--primary-font-color);
     font-family: var(--primary-font-family);
     text-align: center;
+    padding-top: 2rem;
+
 }
 
 #logo {
@@ -99,6 +102,10 @@ label {
     height: 2rem;
 }
 
+input {
+    border: none;
+}
+
 form>button {
     width: 8rem;
     height: 2rem;
@@ -112,6 +119,6 @@ form>button {
     border: none;
 }
 
-input {
-    border: none;
+form>button:hover {
+    background-color: black;
 }

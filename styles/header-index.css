@@ -1,0 +1,81 @@
+:root {
+    --primary-background-color: rgba(141, 0, 0);
+    --body-background-color: rgb(199, 133, 0, 10%);
+    --main-background-color: rgb(199, 133, 0, 70%);
+    --primary-font-color: #FFFF;
+    --secondary-font-color: #0000;
+
+    --primary-font-family: "Crimson Text", serif;
+    --secondary-font-family: "Montserrat", sans-serif;
+}
+
+* {
+    border: solid black 1px;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--body-background-color);
+    margin: 0px;
+    height: 100%;
+}
+
+.menu {
+    background: white;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    width: 40%;
+    padding-top: 1rem;
+
+}
+
+.link_menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+#connexion,
+#inscription {
+    list-style: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 1rem;
+}
+
+
+#connexion {
+    display: flex;
+    flex-direction: row;
+    background: #8D0000;
+    color: #FFF;
+
+}
+
+#inscription {
+    background: black;
+    color: #FFF;
+}
+
+#connexion:hover {
+    background: #000;
+}
+
+#inscription:hover {
+    color: black;
+    background: white;
+    border: black solid;
+}
