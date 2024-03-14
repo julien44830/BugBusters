@@ -1,66 +1,80 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
-    <title>Inscription, THE WILD FORK</title>
+    <title>THE WILD FORK - Inscription</title>
     <meta name="Description" content="Description du site">
     <meta name="Keywords" content="mot,cle,de,la,page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="contactstate" content="France">
     <meta name="contactcity" content="Nantes">
     <meta name="language" content="fr">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/register.css" />
+    <link rel="stylesheet" href="styles/header-annex.css" />
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" />
 </head>
+
 <body>
     <header class="menu">
-        <h1>Inscription, THE WILD FORK</h1>
+        <h1>THE WILD FORK</h1>
         <nav>
             <ul class="link_menu">
-                <li>Connexion</li>
-                <li><a href="register">Inscription</a></li>
+                <li id="connexion"><img id="user-icons" src="assets/icones/utilisateur (2).png"><a
+                        href="register.html">Connexion</a></li>
+                <li id="inscription">Inscription</li>
             </ul>
         </nav>
-    </header>     
-         <div class='backGround'>
+    </header>
+
+    <main class="background_card">
+        <div>
+            <img src="assets/background/thewildfork_logo.png" id="logo">
+            <h2>Pour nous rejoindre, <br>
+                Inscrivez-vous ! </h2>
+        </div>
+        <form action="./" method="post">
+            <ul>
+                <li id="nom">
+                    <label for="nom">Nom&nbsp;:</label>
+                    <input type="text" name="name">
+                </li>
+                <li>
+                    <label for="mail">E-mail&nbsp;:</label>
+                    <input type="mail" name="mail">
+                </li>
+                <li>
+                    <label for="password">Mot&nbsp;de&nbsp;passe&nbsp;:</label>
+                    <input type="password" name="password">
+                </li>
+                <li>
+                    <label for="confirm_password">Mot&nbsp;de&nbsp;passe&nbsp;:</label>
+                    <input type="password" name="confirm_password">
+                </li>
+                <li>
+                    <input type="checkbox">Je m'inscris à la WildFork Newsletter
+                </li>
+                <li>
+                    <button type="submit">Inscription</button>
+                </li>
+            </ul>
+        </form>
+
+
+        <footer>
+            <p>Copyright &#169; : BugBuster</p>
             <img src="/assets/background/thewildfork_logo.png" alt="logo">
-         </div>
-         <main class="espacement1">
-<section class="internal-espacement1" style="padding-top: 4em;">
-    <article>
-<form action="./" method="post">
-<ul>
-    <li>
-       Nom : <input type="text" name="name">     
-    </li>
-    <li>        
-      Mail : <input type="mail" name="mail">
-    </li>
-    <li>  
-    mot de pass <input type="password" name="paswrd">
-    </li>
-    confimer le mot de passe : <input type="password" name="confirm_paswrd">
-    <li>
-        inscription newsletter : <fieldset name="newsletter" id="">
-            <legend class="fr-fieldset__legend--regular fr-fieldset__legend" id="radio-error-legend">
-                Légende pour l’ensemble des éléments
-            </legend>
-            <input type="radio" value="oui">oui
-            <input type="radio" value="Non">non
-        </fieldset>
-     </li>
-     <li>   
-        <button type="submit">inscription</button>
-    </li>   
-</ul>
-    </form>
-
-
-
-
-
-
-</article>
-</section>
-</main>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </footer>
+    </main>
 </body>
+
 </html>
