@@ -1,29 +1,41 @@
-// Select the carousel you'll need to manipulate and the buttons you'll add events to
+// déclaration du carousel et de ses bouton
+const containerCarousel = document.querySelector(".slider_contener");
 const carousel = document.querySelector("[data-target='carousel']");
-const card = carousel.querySelector("[data-target='card']");
 const leftButton = document.querySelector("[data-action='slideLeft']");
 const rightButton = document.querySelector("[data-action='slideRight']");
 
-// Prepare to limit the direction in which the carousel can slide, 
-// and to control how much the carousel advances by each time.
-// In order to slide the carousel so that only three cards are perfectly visible each time,
-// you need to know the carousel width, and the margin placed on a given card in the carousel
+// detection des images
 const carouselWidth = carousel.offsetWidth;
-const cardStyle = card.currentStyle || window.getComputedStyle(card)
-const cardMarginRight = Number(cardStyle.marginRight.match(/\d+/g)[0]);
-
-// Count the number of total cards you have
+const card = carousel.querySelector("[data-target='card']");
+const cardWidth = card.offsetWidth;
+const cardMarginRight = Number(window.getComputedStyle(card).marginRight.match(/\d+/g)[0]);
 const cardCount = carousel.querySelectorAll("[data-target='card']").length;
+let isNavigatingManually = false;
 
-// Define an offset property to dynamically update by clicking the button controls
-// as well as a maxX property so the carousel knows when to stop at the upper limit
+// calcule du déplacement
 let offset = 0;
-const maxX = -((cardCount / 3) * carouselWidth + 
-(cardMarginRight * (cardCount / 3)) - 
-carouselWidth - cardMarginRight);
+const maxX = -((cardCount - 1) * (cardWidth + cardMarginRight) - carouselWidth);
 
 
+
+
+// Function qui fait défiler le carousel************************************************************
+function scrollRight() {
+    const cardWidth = carousel.querySelector("[data-target='card']").offsetWidth; // Width of a single card
+    offset -= cardWidth; // Scroll by the width of one card
+    if (Math.abs(offset) > (cardCount - 1) * cardWidth) {
+        offset = 0; // Set offset to the first card position
+    }
+    carousel.style.transform = `translateX(${offset}px)`;
+};
+
+
+
+
+// écouteur de bouton*********************************************************************************
 leftButton.addEventListener("click", function() {
+    clearInterval(intervalId);
+    isNavigatingManually = true;
     const cardWidth = carousel.querySelector("[data-target='card']").offsetWidth; // Width of a single card
     offset += cardWidth; // Scroll by the width of one card
     if (offset > 0) {
@@ -34,6 +46,8 @@ leftButton.addEventListener("click", function() {
 });
 
 rightButton.addEventListener("click", function() {
+    clearInterval(intervalId);
+    isNavigatingManually = true;
     const cardWidth = carousel.querySelector("[data-target='card']").offsetWidth; // Width of a single card
     offset -= cardWidth; // Scroll by the width of one card
     if (Math.abs(offset) > (cardCount - 1) * cardWidth) {
@@ -41,4 +55,33 @@ rightButton.addEventListener("click", function() {
     }
     carousel.style.transform = `translateX(${offset}px)`;
 });
-  
+
+let intervalId = setInterval(scrollRight, 3000);
+console.log("au demarage intervalID vaut : ",intervalId);
+
+// Redémarrer le défilement automatique lorsque la souris quitte le carousel****************************
+carousel.addEventListener("mouseleave", () => {
+    // Vérifier si l'utilisateur navigue actuellement manuellement
+    if (!isNavigatingManually) {
+        intervalId = setInterval(scrollRight, 3000);
+        console.log("quand manuelle intervalID vaut : ",intervalId);
+    }
+});
+
+
+
+
+// stop du défilement********************************************************************************
+// Mettre à jour la variable isNavigatingManually lorsque l'utilisateur commence ou arrête de naviguer manuellement
+containerCarousel.addEventListener("mouseenter", () => {
+    isNavigatingManually = true;
+    clearInterval(intervalId);
+
+    console.log("ici le carousel ne défile plus");
+});
+
+containerCarousel.addEventListener("mouseleave", () => {
+    isNavigatingManually = false;
+    intervalId = setInterval(scrollRight, 3000);
+    console.log("ici le carousel défile");
+});

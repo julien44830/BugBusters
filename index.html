@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/header-index.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/style-carousel/carousel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet"
@@ -34,16 +35,60 @@
         <h2>Notre priorité, <br> vous faire manger !</h2>
     </div>
 
-    <div class="slider_contener">
-        <div class="cacher">
-            <ul class="slide">
-                <li><img src="/assets/restaurants/restaurant_4.jpg" alt="photo 1"></li>
-                <li><img src="/assets/restaurants/restaurant_5.jpg" alt="photo 2"></li>
-                <li><img src="/assets/restaurants/restaurant_7.jpg" alt="photo 3"></li>
-                <li><img src="/assets/restaurants/restaurant_8.jpg" alt="photo 4"></li>
-            </ul>
-        </div>
+        <div class="slider_contener">
+            <div class="wrapper">
+                <ul class="carousel" data-target="carousel">
+
+                    <li class="card" data-target="card">
+                        <a href="">
+                            <h3 class="titre-restaurant">titre du restaurant</h3>
+                            <img class="img-carousel" src="assets/restaurants/restaurant_1.png" alt="">
+                        </a>
+                    </li>
+
+
+                    <li class="card" data-target="card">
+                        <a href="">
+                            <h3 class="titre-restaurant">titre du restaurant</h3>
+                            <img class="img-carousel" src="assets/restaurants/restaurant_2.png" alt="">
+                        </a>
+                    </li>
+
+
+                    <li class="card" data-target="card">
+                        <a href="">
+                            <h3 class="titre-restaurant">titre du restaurant</h3>
+                            <img class="img-carousel" src="assets/restaurants/restaurant_3.png" alt="">
+                        </a>
+                    </li>
+
+
+                    <li class="card" data-target="card">
+                        <a href="">
+                            <h3 class="titre-restaurant">titre du restaurant</h3>
+                            <img class="img-carousel" src="assets/restaurants/restaurant_1.png" alt="">
+                        </a>
+                    </li>
+
+
+                    <li class="card" data-target="card">
+                        <a href="">
+                            <h3 class="titre-restaurant">titre du restaurant</h3>
+                            <img class="img-carousel" src="assets/restaurants/restaurant_2.png" alt="">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="button-wrapper">
+                <button data-action="slideLeft"><img class="fleche" src="assets/icones/fleche-retour.png" alt=""></button>
+                <button data-action="slideRight"><img class="fleche" src="assets/icones/fleche-suivant.png" alt=""></button>
+            </div>
+
     </div>
+
+
     <div class="espacement1">
         <!-- appel pour mettre en quinconce show_article_reverse -- PAs de quinconce demandé !-->
         <div class="formatting">
@@ -74,6 +119,8 @@
             <li><a href="about.html">About Us</a></li>
         </ul>
     </footer>
+
+    <script src="scripts/script-carousel/carousel.js"></script>
 </body>
 
 </html>

@@ -54,7 +54,7 @@ ul>li {
 }
 
 .slider_contener {
-    margin-top: 110px;
+    /* margin-top: 110px; */
 }
 
 .cacher {
@@ -80,17 +80,70 @@ ul>li {
     padding: 1em 0;
 }
 
-.internal-espacement1{position:relative;margin-top:110px;background:#C88500;padding:2em;color:#FFF;font-size: 2rem;border-radius: 10px;}
-.internal-espacement1>aside{display:flex;justify-content:center;align-items:center;gap:2em;}
-.internal-espacement1>aside>img{width:1fr;height:240px;}
-.internal-espacement1>aside>p{width:1fr;}
-#names{width:100%;height:2em;border-radius:20px;}
-#mel{width:100%;height:2em;border-radius:20px;}
-#psw{width:100%;height:2em;border-radius:20px;}
-#pswc{width:100%;height:2em;border-radius:20px;}
-.buttonregister{position:absolute;right:1em;bottom:1em;background:#000;height:2em;border-radius:20px;color:#FFF;font-size: 0.65em;padding:0 1em;}
+.internal-espacement1{
+    position:relative;
+    margin-top:110px;
+    background:#C88500;
+    padding:2em;color:#FFF;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.internal-espacement1>aside{
+    display:flex;
+    justify-content:center
+    ;align-items:center;
+    gap:2em;
+}
+
+.internal-espacement1>aside>img{
+    width:1fr;
+    height:240px;
+}
+
+.internal-espacement1>aside>p{
+    width:1fr;
+}
+
+#names{
+    width:100%;
+    height:2em;
+    border-radius:20px;
+}
+
+#mel{
+    width:100%;
+    height:2em;
+    border-radius:20px;
+}
+
+#psw{
+    width:100%;
+    height:2em;
+    border-radius:20px;
+}
+
+#pswc{
+    width:100%;
+    height:2em;
+    border-radius:20px;
+}
+
+.buttonregister{
+    position:absolute;
+    right:1em;
+    bottom:1em;
+    background:#000;
+    height:2em;
+    border-radius:20px;
+    color:#FFF;
+    font-size: 0.65em;
+    padding:0 1em;
+}
+
 .espacement>h2{
     padding:1em 0;
+}
 
 .espacement1 {
     width: 80%;
