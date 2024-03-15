@@ -30,6 +30,7 @@ main {
     flex-direction: column;
 }
 
+
 /* main  */
 div {
     display: flex;
@@ -64,7 +65,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 90%;
     gap: 1.5rem;
     padding: 0;
 
@@ -87,16 +88,17 @@ label {
 }
 
 
-#message,
-#mail {
+#mail,
+#password {
     border-radius: 5px 5px 5px 5px;
-    width: 100%;
+    width: 80%;
+    height: 60px;
 }
 
 
-#message {
+/* #password {
     height: 100px
-}
+} */
 
 #mail>input {
     height: 2rem;
@@ -115,7 +117,7 @@ form>button {
     font-size: 1rem;
     border-radius: 10px;
     margin: 1rem;
-    margin-left: 40rem;
+    margin-left: 25rem;
     border: none;
 }
 
