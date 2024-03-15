@@ -19,8 +19,8 @@ const cardCount = carousel.querySelectorAll("[data-target='card']").length;
 // as well as a maxX property so the carousel knows when to stop at the upper limit
 let offset = 0;
 const maxX = -((cardCount / 3) * carouselWidth + 
-               (cardMarginRight * (cardCount / 3)) - 
-                carouselWidth - cardMarginRight);
+(cardMarginRight * (cardCount / 3)) - 
+carouselWidth - cardMarginRight);
 
 
 leftButton.addEventListener("click", function() {
@@ -30,6 +30,7 @@ leftButton.addEventListener("click", function() {
         offset = -(cardCount - 1) * cardWidth; // Set offset to the last card position
     }
     carousel.style.transform = `translateX(${offset}px)`;
+    console.log('la marge est de : ', cardMarginRight);
 });
 
 rightButton.addEventListener("click", function() {
