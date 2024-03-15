@@ -20,13 +20,19 @@
 
 }
 
-h1 {
+h1,
+h1>a {
     margin: 0;
     text-align: center;
     width: 40%;
     padding-top: 1rem;
+    font-style: normal;
+    color: black;
+    font-family: 'Crimson';
+    text-decoration: none;
 
 }
+
 
 .link_menu {
     display: flex;
@@ -35,6 +41,10 @@ h1 {
     align-items: center;
     margin: 20px;
     padding: 0;
+}
+
+.link_menu>a>li {
+    color: black;
 }
 
 #connexion,
@@ -54,24 +64,29 @@ h1 {
     display: flex;
     flex-direction: row;
     background: #8D0000;
-    color: #FFF;
-
+    color: #FFFF;
+    text-decoration: none;
 }
 
 #inscription,
 #inscription>a {
     background: black;
-    color: #FFF;
+    color: #FFFF;
+    text-decoration: none;
+
 }
 
-#connexion:hover,
-#connexion>a:hover {
+#connexion:hover {
     background: #000;
 }
 
-#inscription:hover,
+#inscription:hover {
+    color: black;
+    background: white;
+    outline: black solid;
+}
+
 #inscription>a:hover {
     color: black;
     background: white;
-    border: black solid;
 }
