@@ -1,86 +1,85 @@
-*{margin:0;padding:0;}
-body{
-    background:#faf3e6;
+:root {
+    --primary-background-color: rgba(141, 0, 0);
+    --body-background-color: rgb(199, 133, 0, 10%);
+    --main-background-color: rgb(199, 133, 0, 70%);
+    --primary-font-color: #FFFF;
+    --secondary-font-color: #0000;
+
+    --primary-font-family: "Crimson Text", serif;
+    --secondary-font-family: "Montserrat", sans-serif;
 }
-h1{
-    position:fixed;
-    left:4em;
-    top:0;
-    z-index: 2;
-    height:76px;
-    line-height: 76px;
+
+body {
+    box-sizing: border-box;
+    background-color: var(--body-background-color);
+    margin: 0px;
+    height: 100%;
 }
-ul>li{
+
+ul>li {
     list-style: none;
 }
-.backGround{
- position: relative;
- top:76px;
-    width:100%;
-    height:700px;
-    background-image:url("../assets/background/coquilles-pates-italiennes-aux-champignons-courgettes-sauce-tomate1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: right;
-}
-.backGround>img{
-    position:relative;
-    top:30%;
-    left:10%;
-width:20%;
-height:auto;
-}
-.menu{
-    background:#FFF;
-    width:100%;
-    height:76px;
-    position:fixed;
-    top:0;
-    z-index: 1;
-}
-.link_menu{
-    position:fixed;
-    right:2em;
-    top:0;
-    z-index: 1;
-    display: flex;
-    gap: 2em;
-    align-items: center;
-}
-.link_menu>li{
+
+.background {
+    background-image: url("../assets/background/coquilles-pates-italiennes-aux-champignons-courgettes-sauce-tomate1.jpg");
     position: relative;
-    top:22px;
-    list-style: none;
-    background: #8D0000;
-    padding:0.5em 1em;
-    border-radius:1.5em ;
-    color:#FFF;
-    font-weight: bold;
-    font-size:1em;
-    height:1em;
+    top: 20px;
+    width: auto;
+    height: 50rem;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
-.link_menu>li:hover{
-    background: #000;
+
+
+.background>img {
+    position: relative;
+    top: 15rem;
+    left: 10rem;
+    width: 15rem;
+    height: auto;
+    border-radius: 10px;
 }
-.slider_contener{
-margin-top: 110px;
+
+.background>h2 {
+    color: white;
+    position: relative;
+    top: 15rem;
+    left: 10rem;
+    width : 20%;
+    text-align: center;
 }
-.cacher{
-    width:100%;
+
+.slider_contener {
+    margin-top: 110px;
+}
+
+.cacher {
+    width: 100%;
     overflow: hidden;
 }
-.slide{
-    display:flex;
+
+.slide {
+    display: flex;
     justify-content: center;
-    gap:2em;
+    gap: 2em;
     animation-duration: 3s;
     animation-direction: reverse;
     animation-iteration-count: infinite;
     animation-delay: 3s;
 }
-.slide>li>img{
- width:100%;
+
+.slide>li>img {
+    width: 100%;
 }
+
+.espacement>h2 {
+    padding: 1em 0;
+}
+
 .internal-espacement1{position:relative;margin-top:110px;background:#C88500;padding:2em;color:#FFF;font-size: 2rem;border-radius: 10px;}
 .internal-espacement1>aside{display:flex;justify-content:center;align-items:center;gap:2em;}
 .internal-espacement1>aside>img{width:1fr;height:240px;}
@@ -92,54 +91,41 @@ margin-top: 110px;
 .buttonregister{position:absolute;right:1em;bottom:1em;background:#000;height:2em;border-radius:20px;color:#FFF;font-size: 0.65em;padding:0 1em;}
 .espacement>h2{
     padding:1em 0;
+
+.espacement1 {
+    width: 80%;
+    margin: 0 10%;
+    margin-top: 2em;
 }
-.espacement1{width:80%;margin:0 10%;margin-top:2em;}
-.formatting{
-    display:grid;
+
+.formatting {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap:2em;
+    gap: 2em;
 }
-.show_article{
+
+.show_article {
     display: flex;
-    justify-content:center;
-    gap:1em;
+    justify-content: center;
+    gap: 1em;
     border-radius: 10px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    width:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-.show_article_reverse{
+
+.show_article_reverse {
     flex-direction: row-reverse;
 }
-.show_article>li{
-    width:50%;
- }
-.show_article>li>img{
-    width:100%;
-    border-radius:10px 0 0 10px;
+
+.show_article>li {
+    width: 50%;
 }
-footer{
-    background:#C88500;
-    position:absolute;
-    margin-top: 2em;
-    display:flex;
-    justify-content:space-between;
-    /* justify-content:space-around; */
-    align-items:center;
-    width:100%;
-    height:76px;
-}
-footer>img{
-    position:absolute;
-    z-index: 1;
-    right:50%;
-    left:50%;
-    width:76px;
-    height:76px;
-}
-footer>ul{
-    width:35%;
-    display:flex;
-    justify-content:space-around;
-    align-items:center;
+
+.show_article>li>img {
+    width: 100%;
+    height:100%;
+    border-radius: 10px 0 0 10px;
 }
