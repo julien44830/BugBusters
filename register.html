@@ -24,57 +24,49 @@
         <h1>THE WILD FORK</h1>
         <nav>
             <ul class="link_menu">
-                <li id="connexion"><img id="user-icons" src="assets/icones/utilisateur (2).png"><a
-                        href="register.html">Connexion</a></li>
-                <li id="inscription">Inscription</li>
+                <li>Connexion</li>
+                <li><a href="register.html">Inscription</a></li>
             </ul>
         </nav>
-    </header>
-
-    <main class="background_card">
-        <div>
-            <img src="assets/background/thewildfork_logo.png" id="logo">
-            <h2>Pour nous rejoindre, <br>
-                Inscrivez-vous ! </h2>
-        </div>
-        <form action="./" method="post">
-            <ul>
-                <li id="nom">
-                    <label for="nom">Nom&nbsp;:</label>
-                    <input type="text" name="name">
-                </li>
-                <li>
-                    <label for="mail">E-mail&nbsp;:</label>
-                    <input type="mail" name="mail">
-                </li>
-                <li>
-                    <label for="password">Mot&nbsp;de&nbsp;passe&nbsp;:</label>
-                    <input type="password" name="password">
-                </li>
-                <li>
-                    <label for="confirm_password">Mot&nbsp;de&nbsp;passe&nbsp;:</label>
-                    <input type="password" name="confirm_password">
-                </li>
-                <li>
-                    <input type="checkbox">Je m'inscris à la WildFork Newsletter
-                </li>
-                <li>
-                    <button type="submit">Inscription</button>
-                </li>
-            </ul>
-        </form>
-
-
-        <footer>
-            <p>Copyright &#169; : BugBuster</p>
-            <img src="/assets/background/thewildfork_logo.png" alt="logo">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="about.html">About Us</a></li>
-            </ul>
-        </footer>
-    </main>
+    </header>     
+    <main class="espacement1">
+<section class="internal-espacement1">
+    <aside><img src="/assets/background/thewildfork_logo.png" alt="logo" width="240px" height="240px"><h2>Rejoignez les bons coups de fourchettes</h2></aside>
+    <article>
+<form action="register.html" method="post">
+<ul>
+    <li>
+    Nom :<br><input type="text" name="name" id="names">     
+    </li>
+    <li>        
+    Mail :<br><input type="mail" name="mail" id="mel">
+    </li>
+    <li>  
+    Mot de passe :<br> <input type="password" name="paswrd" id="psw">
+    </li>
+    <li>
+    Confimer le mot de passe :<br><input type="password" name="confirm_paswrd"id="pswc">
+    </li>
+    <li>
+    Tu as un bon coup de fourchette, prouve-le et abonne-toi : <input type="checkbox" value="1" style="width:2em;height:2em;">
+    </li>
+    <li>   
+        <button type="submit" class="buttonregister">inscription</button>
+    </li>   
+</ul>
+    </form>
+</article>
+</section>
+</main>
+<footer>
+    <p>Copyright &#169; : BugBuster</p>
+    <img  src="/assets/background/thewildfork_logo.png" alt="logo">
+    <ul>
+        <li>texte</li>
+        <li>texte</li>
+        <li>texte</li>
+    </ul>
+</footer>
 </body>
 
 </html>
