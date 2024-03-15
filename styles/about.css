@@ -1,0 +1,55 @@
+:root {
+    --primary-background-color: rgba(141, 0, 0);
+    --body-background-color: rgb(199, 133, 0, 10%);
+    --main-background-color: rgb(199, 133, 0, 70%);
+    --primary-font-color: #FFFF;
+    --secondary-font-color: #0000;
+
+    --primary-font-family: "Crimson Text", serif;
+    --secondary-font-family: "Montserrat", sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--body-background-color);
+    margin: 0px;
+    height: 100%;
+}
+
+
+main {
+    background-color: var(--main-background-color);
+    border-radius: 10px;
+    margin: 2rem 2rem 2rem 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* main  */
+div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 2rem;
+    justify-content: center;
+}
+
+h2 {
+    color: var(--primary-font-color);
+    font-family: var(--primary-font-family);
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+#logo {
+    width: 10rem;
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'whisper', cursive;
+    font-size: 1.8rem;
+    color: white
+}

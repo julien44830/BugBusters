@@ -1,0 +1,71 @@
+
+.wrapper {
+
+    height: 650px;
+    width: 1400px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.button-wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+}
+
+/* Positionnez le bouton de gauche */
+button[data-action='slideLeft'] {
+    left: 20px; /* Ajustez la position par rapport à la gauche du conteneur parent */
+    background: none;
+    border: none;
+}
+
+button[data-action='slideRight'] {
+    right: 20px; /* Ajustez la position par rapport à la droite du conteneur parent */
+    background: none;
+    border: none;
+}
+
+.carousel {
+
+    height: 538px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: -84px;
+    transition: all 1s ease;
+}
+.card {
+
+    width: 426px;
+    height: 509px;
+    padding: 50px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.img-carousel{
+
+    width: 100%;
+}
+
+
+.titre-restaurant{
+    position: relative;
+    text-align: center;
+    background-color: #a52a2a91;
+    top: 97px;
+    height: 47px;
+    color: white;
+    padding-top: 32px;
+}
+
+.fleche{
+    max-width: 100px;
+}
