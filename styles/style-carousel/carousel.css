@@ -2,30 +2,28 @@
 .wrapper {
 
     height: 650px;
-    width: 1400px;
+    width: 1420px;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
 }
 
 .button-wrapper {
-    width: 100vw;
+    width: 82vw;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 0 169px;
     position: absolute;
-    top: 1230px;
+    top: 1092px;
 }
 
 /* Positionnez le bouton de gauche */
 button[data-action='slideLeft'] {
-    left: 20px; /* Ajustez la position par rapport à la gauche du conteneur parent */
     background: none;
     border: none;
 }
 
 button[data-action='slideRight'] {
-    right: 20px; /* Ajustez la position par rapport à la droite du conteneur parent */
     background: none;
     border: none;
 }
@@ -38,16 +36,11 @@ button[data-action='slideRight'] {
     list-style: none;
     display: flex;
     position: absolute;
-    left: -84px;
     transition: all 1s ease;
 }
 .card {
-
     width: 426px;
-    height: 509px;
-    padding: 50px;
-    display: inline-block;
-    margin-right: 30px;
+    padding: 25px;
 }
 
 .img-carousel{
