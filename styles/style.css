@@ -158,7 +158,7 @@ ul>li {
     gap: 2em;
 }
 
-.show_article {
+.container_card {
     display: flex;
     justify-content: center;
     gap: 1em;
@@ -169,15 +169,15 @@ ul>li {
     padding: 0;
 }
 
-.show_article_reverse {
+.container_card_reverse {
     flex-direction: row-reverse;
 }
 
-.show_article>li {
+.container_card>li {
     width: 50%;
 }
 
-.show_article>li>img {
+.container_card>li>img {
     width: 100%;
     height:100%;
     border-radius: 10px 0 0 10px;

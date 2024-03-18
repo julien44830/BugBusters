@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/style-carousel/carousel.css">
+    <link rel="stylesheet" href="styles/button.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" />
 </head>
@@ -89,24 +91,110 @@
     </div>
 
 
+    <section id="filtre">
+        <h2>Catégories :</h2>
+        <ul>
+            <li>
+                <button class="filtre">
+                    <p>Pizza</p>
+                    <img src="assets/icones/pizza_icone.png" />
+                </button>
+            </li>
+            <li>
+                <button class="filtre">
+                    <p>Mexicaine</p>
+                    <img src="assets/icones/tacos_icone.png" />
+                </button>
+            </li>
+            <li>
+                <button class="filtre">
+                    <p>Americaine</p>
+                    <img src="assets/icones/hot-dog_icone.png" />
+                </button>
+            </li>
+            <li>
+                <button class="filtre">
+                    <p>Poisson</p>
+                    <img src="assets/icones/poisson_icone.png" />
+                </button>
+            </li>
+            <li>
+                <button class="filtre">
+                    <p>Boulangerie</p>
+                    <img src="assets/icones/croissant_icone.png" />
+                </button>
+            </li>
+            <li>
+                <button class="filtre">
+                    <p>Fast-Food</p>
+                    <img src="assets/icones/burger_icone.png" />
+                </button>
+            </li>
+            <li>
+                <button class="filtre">
+                    <p>Sushi</p>
+                    <img src="assets/icones/sushi_icone.png" />
+                </button>
+            </li>
+            <li>
+                <button class="filtre">
+                    <p>Ramen</p>
+                    <img src="assets/icones/ramen_icone.png" />
+                </button>
+            </li>
+            <li>
+                <button class="filtre">
+                    <p>Végétarien</p>
+                    <img src="assets/icones/salade_icone.png" />
+                </button>
+            </li>
+            <li>
+                <button class="filtre">
+                    <p>Bar</p>
+                    <img src="assets/icones/biere_icone.png" />
+                </button>
+            </li>
+        </ul>
+        <ul class="plus">
+            <li>
+                <button class="filtreplus">
+                    <div>
+                        <p>Prix</p>
+                        <img class="imgplus" src="assets\icones\euro_blanc.png" />
+                    </div>
+                    <img class="imgplus" src="assets\icones\trier_blanc.png" />
+                </button>
+            </li>
+            <li>
+                <button class="filtreplus">
+                    <div>
+                        <p>Distance</p>
+                        <img class="imgplus" src="assets\icones\marcher_blanc (1).png" />
+                    </div>
+                    <img class="imgplus" src="assets\icones\trier_blanc.png" />
+                </button>
+            </li>
+            <li>
+                <button class="filtreplus">
+                    <div>
+                        <p>Note</p>
+                        <img class="imgplus" src="assets\icones\etoile_blanc.png" />
+                    </div>
+                    <img class="imgplus" src="assets\icones\trier_blanc.png" />
+                </button>
+            </li>
+        </ul>
+    </section>
+
+
+
+
+
+
     <div class="espacement1">
-        <!-- appel pour mettre en quinconce show_article_reverse -- PAs de quinconce demandé !-->
+        <!-- appel pour mettre en quinconce show_article_reverse --PAs de quinconce demandé !-->
         <div class="formatting">
-            <ul class="show_article">
-                <li><img src=/assets/restaurants/restaurant_4.jpg alt="photo 1"></li>
-                <li>texte</li>
-            </ul>
-            <ul class="show_article">
-                <li><img src=/assets/restaurants/restaurant_3.png alt="photo 2"></li>
-                <li>texte</li>
-            </ul>
-            <ul class="show_article">
-                <li><img src=/assets/restaurants/restaurant_1.png alt="photo 3"></li>
-                <li>texte</li>
-            </ul>
-            <ul class="show_article">
-                <li><img src=/assets/restaurants/restaurant_2.png alt="photo 4"></li>
-                <li>texte</li>
+            <ul class="container_card">
             </ul>
         </div>
     </div>
@@ -119,8 +207,9 @@
             <li><a href="about.html">About Us</a></li>
         </ul>
     </footer>
-
+    <script src="scripts/button.js"></script>
     <script src="scripts/script-carousel/carousel.js"></script>
+    <script src="scripts/restaurant_card.js"></script>
 </body>
 
 </html>
