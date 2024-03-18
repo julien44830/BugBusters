@@ -10,21 +10,21 @@
 }
 
 .menu {
-    background: white;
-    width: 100%;
+    background-color: var(--primary-font-color);
+    width: 100vw;
     height: 5rem;
     display: flex;
     justify-content: space-between;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 h1, h1>a {
     margin: 0;
     text-align: center;
     width: 40%;
-    padding-top: 1rem;
+    font-size: 5rem;
     font-style: normal;
     color:black;
     font-family:'Crimson';

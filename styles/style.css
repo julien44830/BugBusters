@@ -20,26 +20,23 @@ ul>li {
     list-style: none;
 }
 
-.background {
-    background-image: url("../assets/background/coquilles-pates-italiennes-aux-champignons-courgettes-sauce-tomate1.jpg");
-    position: relative;
-    top: 20px;
-    width: auto;
-    height: 50rem;
-    background-size: auto;
+header{
+    height: 100vh;
+    background-image: url(../assets/background/coquilles-pates-italiennes-aux-champignons-courgettes-sauce-tomate1.jpg);
     background-repeat: no-repeat;
-    background-position: 25%;
+    background-size: 3374px 1176px;
+    background-position-x: -473px;
+    background-position-y: 80px;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
 }
 
 
 .background>img {
     position: relative;
     top: 15rem;
-    left: 10rem;
-    width: 15rem;
+    left: 15rem;
+    width: 34rem;
     height: auto;
     border-radius: 10px;
 }
@@ -47,10 +44,10 @@ ul>li {
 .background>h2 {
     color: white;
     position: relative;
-    top: 15rem;
-    left: 10rem;
-    width : 20%;
-    text-align: center;
+    top: 23rem;
+    left: 9rem;
+    font-size: 3rem;
+    max-width: 50vw;
 }
 
 .cacher {
@@ -68,113 +65,3 @@ ul>li {
     animation-delay: 3s;
 }
 
-.slide>li>img {
-    width: 100%;
-}
-
-.espacement>h2 {
-    padding: 1em 0;
-}
-
-.internal-espacement1{
-    position:relative;
-    margin-top:110px;
-    background:#C88500;
-    padding:2em;color:#FFF;
-    font-size: 2rem;
-    border-radius: 10px;
-}
-
-.internal-espacement1>aside{
-    display:flex;
-    justify-content:center
-    ;align-items:center;
-    gap:2em;
-}
-
-.internal-espacement1>aside>img{
-    width:1fr;
-    height:240px;
-}
-
-.internal-espacement1>aside>p{
-    width:1fr;
-}
-
-#names{
-    width:100%;
-    height:2em;
-    border-radius:20px;
-}
-
-#mel{
-    width:100%;
-    height:2em;
-    border-radius:20px;
-}
-
-#psw{
-    width:100%;
-    height:2em;
-    border-radius:20px;
-}
-
-#pswc{
-    width:100%;
-    height:2em;
-    border-radius:20px;
-}
-
-.buttonregister{
-    position:absolute;
-    right:1em;
-    bottom:1em;
-    background:#000;
-    height:2em;
-    border-radius:20px;
-    color:#FFF;
-    font-size: 0.65em;
-    padding:0 1em;
-}
-
-.espacement>h2{
-    padding:1em 0;
-}
-
-.espacement1 {
-    width: 80%;
-    margin: 0 10%;
-    margin-top: 2em;
-}
-
-.formatting {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 2em;
-}
-
-.container_card {
-    display: flex;
-    justify-content: center;
-    gap: 1em;
-    border-radius: 10px;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.container_card_reverse {
-    flex-direction: row-reverse;
-}
-
-.container_card>li {
-    width: 50%;
-}
-
-.container_card>li>img {
-    width: 100%;
-    height:100%;
-    border-radius: 10px 0 0 10px;
-}

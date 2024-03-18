@@ -2,19 +2,19 @@
 .wrapper {
 
     height: 650px;
-    width: 1420px;
+    width: 1399px;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
+    z-index: 1;
 }
 
 .button-wrapper {
-    width: 82vw;
+    width:99vw;
     display: flex;
     justify-content: space-between;
-    padding: 0 169px;
     position: absolute;
-    top: 1092px;
+    top: 88rem;
 }
 
 /* Positionnez le bouton de gauche */
@@ -38,9 +38,9 @@ button[data-action='slideRight'] {
     position: absolute;
     transition: all 1s ease;
 }
-.card {
-    width: 426px;
-    padding: 25px;
+.card-carousel {
+    width: 410px;
+    padding: 20px;
 }
 
 .img-carousel{
@@ -53,7 +53,7 @@ button[data-action='slideRight'] {
     position: relative;
     text-align: center;
     background-color: #a52a2a91;
-    top: 97px;
+    top: 79px;
     height: 47px;
     color: white;
     padding-top: 32px;

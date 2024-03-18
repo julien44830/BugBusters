@@ -12,8 +12,9 @@
     <meta name="language" content="fr">
     <link rel="stylesheet" href="styles/header-index.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/card-index.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/style-carousel/carousel.css">
+    <link rel="stylesheet" href="styles/carousel.css">
     <link rel="stylesheet" href="styles/button.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,25 +24,32 @@
 </head>
 
 <body>
-    <header class="menu">
-        <h1><a href="index.html">THE WILD FORK</a></h1>
-        <nav>
+
+    <header class='background'> 
+        <nav class="menu">
+
+            <h1><a href="index.html">THE WILD FORK</a></h1>
+
             <ul class="link_menu">
                 <li id="connexion"><img id="user-icons" src="assets/icones/utilisateur (2).png"><a href="connect.html">Connexion</a></li>
                 <li id="inscription"><a href="register.html">Inscription</a></li>
             </ul>
+
         </nav>
-    </header>
-    <div class='background'>
+
         <img src="/assets/background/thewildfork_logo.png" alt="logo">
-        <h2>Notre priorité, <br> vous faire manger !</h2>
-    </div>
+
+        <h2>Notre priorité, vous faire manger !</h2>
+
+
+
+    </header>
 
         <div class="slider_contener">
             <div class="wrapper">
                 <ul class="carousel" data-target="carousel">
 
-                    <li class="card" data-target="card">
+                    <li class="card-carousel" data-target="card">
                         <a href="">
                             <h3 class="titre-restaurant">titre du restaurant</h3>
                             <img class="img-carousel" src="assets/restaurants/restaurant_1.png" alt="">
@@ -49,7 +57,7 @@
                     </li>
 
 
-                    <li class="card" data-target="card">
+                    <li class="card-carousel" data-target="card">
                         <a href="">
                             <h3 class="titre-restaurant">titre du restaurant</h3>
                             <img class="img-carousel" src="assets/restaurants/restaurant_2.png" alt="">
@@ -57,7 +65,7 @@
                     </li>
 
 
-                    <li class="card" data-target="card">
+                    <li class="card-carousel" data-target="card">
                         <a href="">
                             <h3 class="titre-restaurant">titre du restaurant</h3>
                             <img class="img-carousel" src="assets/restaurants/restaurant_3.png" alt="">
@@ -65,7 +73,7 @@
                     </li>
 
 
-                    <li class="card" data-target="card">
+                    <li class="card-carousel " data-target="card">
                         <a href="">
                             <h3 class="titre-restaurant">titre du restaurant</h3>
                             <img class="img-carousel" src="assets/restaurants/restaurant_1.png" alt="">
@@ -73,7 +81,7 @@
                     </li>
 
 
-                    <li class="card" data-target="card">
+                    <li class="card-carousel" data-target="card">
                         <a href="">
                             <h3 class="titre-restaurant">titre du restaurant</h3>
                             <img class="img-carousel" src="assets/restaurants/restaurant_2.png" alt="">
@@ -93,65 +101,65 @@
 
     <section id="filtre">
         <h2>Catégories :</h2>
-        <ul>
+        <ul class="ul-btn">
             <li>
                 <button class="filtre">
                     <p>Pizza</p>
-                    <img src="assets/icones/pizza_icone.png" />
+                    <img class="btn-img" src="assets/icones/pizza_icone.png" />
                 </button>
             </li>
             <li>
                 <button class="filtre">
                     <p>Mexicaine</p>
-                    <img src="assets/icones/tacos_icone.png" />
+                    <img class="btn-img" src="assets/icones/tacos_icone.png" />
                 </button>
             </li>
             <li>
                 <button class="filtre">
                     <p>Americaine</p>
-                    <img src="assets/icones/hot-dog_icone.png" />
+                    <img class="btn-img" src="assets/icones/hot-dog_icone.png" />
                 </button>
             </li>
             <li>
                 <button class="filtre">
                     <p>Poisson</p>
-                    <img src="assets/icones/poisson_icone.png" />
+                    <img class="btn-img" src="assets/icones/poisson_icone.png" />
                 </button>
             </li>
             <li>
                 <button class="filtre">
                     <p>Boulangerie</p>
-                    <img src="assets/icones/croissant_icone.png" />
+                    <img class="btn-img" src="assets/icones/croissant_icone.png" />
                 </button>
             </li>
             <li>
                 <button class="filtre">
                     <p>Fast-Food</p>
-                    <img src="assets/icones/burger_icone.png" />
+                    <img class="btn-img" src="assets/icones/burger_icone.png" />
                 </button>
             </li>
             <li>
                 <button class="filtre">
                     <p>Sushi</p>
-                    <img src="assets/icones/sushi_icone.png" />
+                    <img class="btn-img" src="assets/icones/sushi_icone.png" />
                 </button>
             </li>
             <li>
                 <button class="filtre">
                     <p>Ramen</p>
-                    <img src="assets/icones/ramen_icone.png" />
+                    <img class="btn-img" src="assets/icones/ramen_icone.png" />
                 </button>
             </li>
             <li>
                 <button class="filtre">
                     <p>Végétarien</p>
-                    <img src="assets/icones/salade_icone.png" />
+                    <img class="btn-img" src="assets/icones/salade_icone.png" />
                 </button>
             </li>
             <li>
                 <button class="filtre">
                     <p>Bar</p>
-                    <img src="assets/icones/biere_icone.png" />
+                    <img class="btn-img" src="assets/icones/biere_icone.png" />
                 </button>
             </li>
         </ul>
@@ -160,27 +168,27 @@
                 <button class="filtreplus">
                     <div>
                         <p>Prix</p>
-                        <img class="imgplus" src="assets\icones\euro_blanc.png" />
+                        <img class="imgplus btn-img" src="assets\icones\euro_blanc.png" />
                     </div>
-                    <img class="imgplus" src="assets\icones\trier_blanc.png" />
+                    <img class="imgplus btn-img" src="assets\icones\trier_blanc.png" />
                 </button>
             </li>
             <li>
                 <button class="filtreplus">
                     <div>
                         <p>Distance</p>
-                        <img class="imgplus" src="assets\icones\marcher_blanc (1).png" />
+                        <img class="imgplus btn-img" src="assets\icones\marcher_blanc (1).png" />
                     </div>
-                    <img class="imgplus" src="assets\icones\trier_blanc.png" />
+                    <img class="imgplus btn-img" src="assets\icones\trier_blanc.png" />
                 </button>
             </li>
             <li>
                 <button class="filtreplus">
                     <div>
                         <p>Note</p>
-                        <img class="imgplus" src="assets\icones\etoile_blanc.png" />
+                        <img class="imgplus btn-img" src="assets\icones\etoile_blanc.png" />
                     </div>
-                    <img class="imgplus" src="assets\icones\trier_blanc.png" />
+                    <img class="imgplus btn-img" src="assets\icones\trier_blanc.png" />
                 </button>
             </li>
         </ul>
@@ -191,13 +199,21 @@
 
 
 
-    <div class="espacement1">
-        <!-- appel pour mettre en quinconce show_article_reverse --PAs de quinconce demandé !-->
-        <div class="formatting">
-            <ul class="container_card">
-            </ul>
-        </div>
-    </div>
+
+    <section class="card-index">
+        
+        
+        <ul class="container_card">
+            <!-- appel pour mettre en quinconce show_article_reverse --PAs de quinconce demandé !-->
+        
+        </ul>
+
+
+    </section>
+
+
+
+    
     <footer>
         <p>Copyright &#169; : BugBuster</p>
         <img src="/assets/background/thewildfork_logo.png" alt="logo">
@@ -208,7 +224,7 @@
         </ul>
     </footer>
     <script src="scripts/button.js"></script>
-    <script src="scripts/script-carousel/carousel.js"></script>
+    <script src="scripts/carousel.js"></script>
     <script src="scripts/restaurant_card.js"></script>
 </body>
 

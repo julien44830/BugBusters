@@ -58,7 +58,7 @@ h2 {
 }
 
 
-ul {
+ul.ul-btn {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 50px 75px;
@@ -91,7 +91,7 @@ li {
     margin: 1rem 1rem 1rem 0rem;
 }
 
-li img {
+.btn-img {
     width: 4rem;
 }
 

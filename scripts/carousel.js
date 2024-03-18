@@ -1,7 +1,7 @@
 console.log('coucou');
 
 // Sélectionnez le conteneur du carousel et ses boutons de navigation
-const containerCarousel = document.querySelector(".slider_contener");
+const containerCarousel = document.querySelector(".wrapper");
 const carousel = document.querySelector("[data-target='carousel']");
 const leftButton = document.querySelector("[data-action='slideLeft']");
 const rightButton = document.querySelector("[data-action='slideRight']");
