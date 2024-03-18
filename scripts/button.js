@@ -5,7 +5,6 @@ console.log(buttonTest);
 buttonTest.forEach((a) =>{
 
         a.addEventListener('click', function(){
-            alert('coucou je suis le bouton : ', a);
     });
 
         a.addEventListener('mouseover', function() {
@@ -23,7 +22,6 @@ console.log(buttonPlus);
 buttonPlus.forEach((a) =>{
 
         a.addEventListener('click', function(){
-            alert('coucou je suis le bouton un peu plus long: ', a);
     });
 
         a.addEventListener('mouseover', function() {
