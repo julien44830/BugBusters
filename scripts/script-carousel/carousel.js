@@ -48,7 +48,7 @@ containerCarousel.addEventListener("mouseenter", () => {
 // Redémarrer le défilement automatique lorsque la souris quitte le carousel
 containerCarousel.addEventListener("mouseleave", () => {
     isNavigatingManually = false;
-    intervalId = setInterval(scrollRightLoop, 3000);
+    intervalId = setInterval(scrollRightLoop, 2500);
 });
 
 
