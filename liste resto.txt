@@ -1,0 +1,155 @@
+    {
+    nom : "Pazzi",
+    description : "pizza",
+    prix : "€€€",
+    distance: "(par rapport à la Wild): " + 600,
+    href: "./restaurant.html",
+    réputation : 4 + "etoiles",
+    image: {
+    src : "./assets/restaurants/pazzi.png"
+    },
+    adresseMap: "https://maps.app.goo.gl/PYhh4vrEuYpP9bi89"
+    },
+
+    {
+    nom : "Omija",
+    descirption : "sushi",
+    prix : "€€€",
+    distance : 170,
+    href: "./restaurant.html",
+    réputation : 5 +"etoiles",
+    image: {
+    src : "./assets/restaurants/omija.jpg"
+    },
+    adresseMap : "https://maps.app.goo.gl/uJZ71K1CRviBLsJP8"
+    },
+
+    {
+    nom : "Ichi Go Ichi E Ramen",
+    descirption : "ramen",
+    prix : "€€€",
+    distance : 70,
+    href: "./restaurant.html",
+    réputation : 5 +"etoiles",
+    image: {
+    src : "./assets/restaurants/ichi-go-ramen.jpg"
+    },
+    adresseMap : "https://maps.app.goo.gl/aQvtyLuXAV95aCHx9"
+    },
+
+    {
+    nom : "Le café du marché",
+    descirption : "bar",
+    prix : "€€",
+    distance :  220,
+    href: "./restaurant.html",
+    réputation : 3+ "etoiles",
+    image: {
+    src : "./assets/restaurants/le-cafe-du-marche.jpg"
+    },
+    adresseMap : "https://maps.app.goo.gl/VPTojd7YfrM8gTDF7"
+    },
+
+    {
+    nom : "Zygobar",
+    descirption : "bar",
+    prix : "€€",
+    distance : 400,
+    href: "./restaurant.html",
+    réputation : 5 +"etoiles",
+    image: {
+    src : "./assets/restaurants/zygobar.jpg zygobar.2.jpg"
+    },
+    adresseMap : "https://maps.app.goo.gl/W8HF5WvLfjTjB8Ng9"
+    },
+
+    {
+    nom : "Izakaya joyi",
+    descirption : "sushi",
+    prix : "€€€",
+    distance : 160,
+    href: "./restaurant.html",
+    réputation : 5 +"etoiles",
+    image: {
+    src : "./assets/restaurants/izakaya-joyi.jpg"
+    },
+    adresseMap : "https://maps.app.goo.gl/uuHyFzCRUJTfQujMA"
+    },
+
+    {
+    nom : "La Boulangerie d'Honoré",
+    descirption : "boulangerie",
+    prix : "€",
+    distance : 400,
+    href: "./restaurant.html",
+    réputation : 4 +"etoiles",
+    image: {
+    src : "./assets/restaurants/la-boulangerie-honore.jpg"
+    },
+    adresseMap : "https://maps.app.goo.gl/pPPx4KvoqmQdf8WK7"
+    },
+
+    {
+    nom : "Springfield",
+    descirption : "fast-food",
+    prix : "€",
+    distance : 2300,
+    href: "./restaurant.html",
+    réputation : 2 +"etoiles",
+    image: {
+    src : "./assets/restaurants/springfield.jpg"
+    },
+    adresseMap : "https://maps.app.goo.gl/Bt6xc8Gk2L3jMqXA9"
+    },
+
+    {
+    nom : "La Loco",
+    descirption : "poisson",
+    prix : "€€€",
+    distance : 1000,
+    href: "./restaurant.html",
+    réputation : 3 +"etoiles",
+    image: {
+    src : "./assets/restaurants/la-loco.jpg"
+    },
+    adresseMap : "https://maps.app.goo.gl/Y6kRUgXG21vCfBH77"
+    },
+
+    {
+    nom : "Tierra Maya",
+    descirption : "mexicain",
+    prix : "€",
+    distance : 700,
+    href: "./restaurant.html",
+    réputation : 4 +"etoiles",
+    image: {
+    src : "./assets/restaurants/tierra-maya.jpg"
+    },
+    adresseMap : "https://maps.app.goo.gl/wPicHTwWADThmPo67"
+    },
+
+    {
+    nom : "Back Bay",
+    descirption : "americain",
+    prix : "€€",
+    distance :  850,
+    href: "./restaurant.html",
+    réputation : 4 ,
+    image: {
+    src : "./assets/restaurants/back-bay.jpg",
+    },
+    adresseMap : "https://maps.app.goo.gl/BweGPiR9y9hxABS27"
+    },
+
+    {
+    nom : "La Recre",
+    descirption : "vegetarien",
+    prix : "€€",
+    distance : 50,
+    href: "./restaurant.html",
+    réputation : 4 +"etoiles",
+    image: {
+    src : "./assets/restaurants/la-recre.jpg",
+    },
+    adresseMap : "https://maps.app.goo.gl/dUjXYyVWd7YPrWA26"
+    }

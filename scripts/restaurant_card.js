@@ -167,110 +167,157 @@ let restaurants = [
 
     {
     nom : "Pazzi",
-    description : "pizza",
+    description : "Pizza",
     prix : "€€€",
-    distance: "(par rapport à la Wild): "+600,
-    réputation : 4 + "etoiles",
-    image : "pazzi.png",
+    distance: 600,
+    href: "./restaurant.html",
+    reputation : 4 + " etoiles",
+    image: {
+    src : "./assets/restaurants/pazzi.png"
+    },
     adresseMap: "https://maps.app.goo.gl/PYhh4vrEuYpP9bi89"
     },
+
     {
     nom : "Omija",
-    descirption : "sushi",
+    description : "Sushi",
     prix : "€€€",
     distance : 170,
-    réputation : 5 +"etoiles",
-    image : "omija.jpg",
+    href: "./restaurant.html",
+    reputation : 5 +" etoiles",
+    image: {
+    src : "./assets/restaurants/omija.jpg"
+    },
     adresseMap : "https://maps.app.goo.gl/uJZ71K1CRviBLsJP8"
     },
+
     {
     nom : "Ichi Go Ichi E Ramen",
-    descirption : "ramen",
+    description : "Ramen",
     prix : "€€€",
     distance : 70,
-    réputation : 5 +"etoiles",
-    image : "ichi-go-ramen",
+    href: "./restaurant.html",
+    reputation : 5 +" etoiles",
+    image: {
+    src : "./assets/restaurants/ichi-go-ramen.jpg"
+    },
     adresseMap : "https://maps.app.goo.gl/aQvtyLuXAV95aCHx9"
     },
+
     {
     nom : "Le café du marché",
-    descirption : "bar",
+    description : "Bar",
     prix : "€€",
     distance :  220,
-    réputation : 3+ "etoiles",
-    image : "le-cafe-du-marche",
+    href: "./restaurant.html",
+    reputation : 3 + " etoiles",
+    image: {
+    src : "./assets/restaurants/le-cafe-du-marche.jpg"
+    },
     adresseMap : "https://maps.app.goo.gl/VPTojd7YfrM8gTDF7"
     },
+
     {
     nom : "Zygobar",
-    descirption : "bar",
+    description : "Bar",
     prix : "€€",
     distance : 400,
-    réputation : 5 +"etoiles",
-    image : "zygobar.jpg zygobar.2.jpg",
+    href: "./restaurant.html",
+    reputation : 5 + " etoiles",
+    image: {
+    src : "./assets/restaurants/zygobar.jpg zygobar.2.jpg"
+    },
     adresseMap : "https://maps.app.goo.gl/W8HF5WvLfjTjB8Ng9"
     },
+
     {
     nom : "Izakaya joyi",
-    descirption : "sushi",
+    description : "Sushi",
     prix : "€€€",
     distance : 160,
-    réputation : 5 +"etoiles",
-    image : "izakaya-joyi.jpg",
+    href: "./restaurant.html",
+    reputation : 5 + " etoiles",
+    image: {
+    src : "./assets/restaurants/izakaya-joyi.jpg"
+    },
     adresseMap : "https://maps.app.goo.gl/uuHyFzCRUJTfQujMA"
     },
+
     {
     nom : "La Boulangerie d'Honoré",
-    descirption : "boulangerie",
+    description : "Boulangerie",
     prix : "€",
     distance : 400,
-    réputation : 4 +"etoiles",
-    image : la-boulangerie-honore.jpg,
+    href: "./restaurant.html",
+    reputation : 4 + " etoiles",
+    image: {
+    src : "./assets/restaurants/la-boulangerie-honore.jpg"
+    },
     adresseMap : "https://maps.app.goo.gl/pPPx4KvoqmQdf8WK7"
     },
+
     {
     nom : "Springfield",
-    descirption : "fast-food",
+    description : "Fast-Food",
     prix : "€",
     distance : 2300,
-    réputation : 2 +"etoiles",
-    image : "springfield.jpg",
+    href: "./restaurant.html",
+    reputation : 2 + " etoiles",
+    image: {
+    src : "./assets/restaurants/springfield.jpg"
+    },
     adresseMap : "https://maps.app.goo.gl/Bt6xc8Gk2L3jMqXA9"
     },
+
     {
     nom : "La Loco",
-    descirption : "poisson",
+    description : "Poisson",
     prix : "€€€",
     distance : 1000,
-    réputation : 3 +"etoiles",
-    image : "la-loco.jpg",
+    href: "./restaurant.html",
+    reputation : 3 + " etoiles",
+    image: {
+    src : "./assets/restaurants/la-loco.jpg"
+    },
     adresseMap : "https://maps.app.goo.gl/Y6kRUgXG21vCfBH77"
     },
+
     {
     nom : "Tierra Maya",
-    descirption : "mexicain",
+    description : "Mexicaine",
     prix : "€",
     distance : 700,
-    réputation : 4 +"etoiles",
-    image : "tierra-maya.jpg",
+    href: "./restaurant.html",
+    reputation : 4 + " etoiles",
+    image: {
+    src : "./assets/restaurants/tierra-maya.jpg"
+    },
     adresseMap : "https://maps.app.goo.gl/wPicHTwWADThmPo67"
     },
+
     {
     nom : "Back Bay",
-    descirption : "americain",
+    description : "Américaine",
     prix : "€€",
     distance :  850,
-    réputation : 4 +"etoiles",
-    image : "back-bay.jpg",
+    href: "./restaurant.html",
+    reputation : 4 + " etoiles" ,
+    image: {
+    src : "./assets/restaurants/back-bay.jpg",
+    },
     adresseMap : "https://maps.app.goo.gl/BweGPiR9y9hxABS27"
     },
+
     {
     nom : "La Recre",
-    descirption : "vegetarien",
+    description : "Végétarien",
     prix : "€€",
     distance : 50,
-    réputation : 4 +"etoiles",
-    image : "la-recre.jpg",
+    href: "./restaurant.html",
+    reputation : 4 + " etoiles",
+    image: {
+    src : "./assets/restaurants/la-recre.jpg",
+    },
     adresseMap : "https://maps.app.goo.gl/dUjXYyVWd7YPrWA26"
     }
 
@@ -336,14 +383,19 @@ console.log("liste des carte restaurant ",restaurants);
         prix.textContent =  restaurant.prix;
         div2.appendChild(prix);
         
-        let reputation = document.createElement("img");
-        reputation.classList.add("img-card");
-        reputation.src = restaurant.reputation.src;
-        div.appendChild(reputation);
+        // let reputation = document.createElement("img");
+        // reputation.classList.add("img-card");
+        // reputation.src = restaurant.src;
+        // div.appendChild(reputation);
         
+        let reputation = document.createElement("p");
+        reputation.classList.add("img-card");
+        reputation.textContent = restaurant.reputation;
+        div.appendChild(reputation);
+
         let description = document.createElement("p");
         description.classList.add("A");
-        description.textContent = restaurant.description;
+        description.textContent = "#" + restaurant.description;
         div.appendChild(description);
         
 
