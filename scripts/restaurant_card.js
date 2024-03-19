@@ -5,11 +5,11 @@ let restaurants = [
     prix: "€€€",
     distance: 305,
     reputation:{
-        src:"../assets/icones/etoile_icone.png"
+        src:"./assets/icones/etoile_icone.png"
     },
     adresseMap: "Adresse sur la carte",
     image: {
-        src : "../assets/restaurants/restaurant_1.png"
+        src : "./assets/restaurants/restaurant_1.png"
 }
 },
 
@@ -19,11 +19,11 @@ let restaurants = [
     prix: "€€€",
     distance: 180,
     reputation:{
-        src:"../assets/icones/etoile_icone.png"
+        src:"./assets/icones/etoile_icone.png"
     },
     adresseMap: "Adresse sur la carte",
     image: {
-        src : "../assets/restaurants/restaurant_1.png"
+        src : "./assets/restaurants/restaurant_1.png"
 }
 },
 {
@@ -32,11 +32,11 @@ let restaurants = [
     prix: "€€€",
     distance: 305,
     reputation:{
-        src:"../assets/icones/etoile_icone.png"
+        src:"./assets/icones/etoile_icone.png"
     },
     adresseMap: "Adresse sur la carte",
     image: {
-        src : "../assets/restaurants/restaurant_1.png"
+        src : "./assets/restaurants/restaurant_1.png"
 }
 },
 
@@ -46,11 +46,11 @@ let restaurants = [
     prix: "€€€",
     distance: 305,
     reputation:{
-        src:"../assets/icones/etoile_icone.png"
+        src:"./assets/icones/etoile_icone.png"
     },
     adresseMap: "Adresse sur la carte",
     image: {
-        src : "../assets/restaurants/restaurant_1.png"
+        src : "./assets/restaurants/restaurant_1.png"
 }
 },
 {
@@ -59,11 +59,11 @@ let restaurants = [
     prix: "€€€",
     distance: 305,
     reputation:{
-        src:"../assets/icones/etoile_icone.png"
+        src:"./assets/icones/etoile_icone.png"
     },
     adresseMap: "Adresse sur la carte",
     image: {
-        src : "../assets/restaurants/restaurant_1.png"
+        src : "./assets/restaurants/restaurant_1.png"
 }
 },
 
@@ -73,11 +73,11 @@ let restaurants = [
     prix: "€€€",
     distance: 305,
     reputation:{
-        src:"../assets/icones/etoile_icone.png"
+        src:"./assets/icones/etoile_icone.png"
     },
     adresseMap: "Adresse sur la carte",
     image: {
-        src : "../assets/restaurants/restaurant_1.png"
+        src : "./assets/restaurants/restaurant_1.png"
 }
 },
 
@@ -87,11 +87,11 @@ let restaurants = [
     prix: "€€€",
     distance: 305,
     reputation:{
-        src:"../assets/icones/etoile_icone.png"
+        src:"./assets/icones/etoile_icone.png"
     },
     adresseMap: "Adresse sur la carte",
     image: {
-        src : "../assets/restaurants/restaurant_1.png"
+        src : "./assets/restaurants/restaurant_1.png"
 }
 },
 
@@ -101,11 +101,11 @@ let restaurants = [
     prix: "€€€",
     distance: 305,
     reputation:{
-        src:"../assets/icones/etoile_icone.png"
+        src:"./assets/icones/etoile_icone.png"
     },
     adresseMap: "Adresse sur la carte",
     image: {
-        src : "../assets/restaurants/restaurant_1.png"
+        src : "./assets/restaurants/restaurant_1.png"
 }
 },
 
@@ -115,11 +115,11 @@ let restaurants = [
     prix: "€€€",
     distance: 305,
     reputation:{
-        src:"../assets/icones/etoile_icone.png"
+        src:"./assets/icones/etoile_icone.png"
     },
     adresseMap: "Adresse sur la carte",
     image: {
-        src : "../assets/restaurants/restaurant_1.png"
+        src : "./assets/restaurants/restaurant_1.png"
 }
 },
 
@@ -129,11 +129,11 @@ let restaurants = [
     prix: "€€€",
     distance: 305 ,
     reputation:{
-        src:"../assets/icones/etoile_icone.png"
+        src:"./assets/icones/etoile_icone.png"
     },
     adresseMap: "Adresse sur la carte",
     image: {
-        src : "../assets/restaurants/restaurant_1.png"
+        src : "./assets/restaurants/restaurant_1.png"
 }
 },
 
@@ -143,11 +143,11 @@ let restaurants = [
     prix: "€€€€€",
     distance: 1005,
     reputation:{
-        src:"../assets/icones/etoile_icone.png"
+        src:"./assets/icones/etoile_icone.png"
     },
     adresseMap: "Adresse sur la carte",
     image: {
-        src : "../assets/restaurants/restaurant_1.png"
+        src : "./assets/restaurants/restaurant_1.png"
 }
 },
 
