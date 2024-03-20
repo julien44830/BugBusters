@@ -1,5 +1,3 @@
-console.log('coucou');
-
 // Sélectionnez le conteneur du carousel et ses boutons de navigation
 const containerCarousel = document.querySelector(".wrapper");
 const carousel = document.querySelector("[data-target='carousel']");
@@ -49,6 +47,7 @@ containerCarousel.addEventListener("mouseenter", () => {
 containerCarousel.addEventListener("mouseleave", () => {
     isNavigatingManually = false;
     intervalId = setInterval(scrollRightLoop, 2500);
+    scrollRightLoop()
 });
 
 
