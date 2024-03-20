@@ -1,0 +1,133 @@
+Restaurant1 {
+nom : Pazzi
+description : #pizza
+prix : €€€
+distance (par rapport à la Wild): 600
+réputation : 4 etoiles
+image : pazzi.png
+adresseMap: https://maps.app.goo.gl/PYhh4vrEuYpP9bi89
+}
+
+Restaurant 2  {
+nom : Omija
+descirption : #sushi
+prix : €€€
+distance : 170  
+réputation : 5 etoiles
+image : omija.jpg
+adresseMap : https://maps.app.goo.gl/uJZ71K1CRviBLsJP8
+
+}
+
+Restaurant 3  {
+nom : Ichi Go Ichi E Ramen
+descirption : #ramen
+prix : €€€
+distance : 70
+réputation : 5 etoiles
+image : ichi-go-ramen
+adresseMap : https://maps.app.goo.gl/aQvtyLuXAV95aCHx9
+
+}
+
+Restaurant 4  {
+nom : Le café du marché
+descirption : #bar
+prix : €€
+distance :  220
+réputation : 3 etoiles
+image : le-cafe-du-marche
+adresseMap : https://maps.app.goo.gl/VPTojd7YfrM8gTDF7
+
+}
+
+Restaurant 5  {
+nom : Zygobar
+descirption : #bar
+prix : €€
+distance : 400
+réputation : 5 etoiles
+image : zygobar.jpg zygobar.2.jpg
+adresseMap : https://maps.app.goo.gl/W8HF5WvLfjTjB8Ng9
+
+}
+
+Restaurant 6  {
+nom : Izakaya joyi
+descirption : #sushi
+prix : €€€
+distance : 160  
+réputation : 5 etoiles
+image : izakaya-joyi.jpg
+adresseMap : https://maps.app.goo.gl/uuHyFzCRUJTfQujMA
+
+}
+
+Restaurant 7  {
+nom : La Boulangerie d'Honoré
+descirption : #boulangerie
+prix : €
+distance : 400
+réputation : 4 etoiles
+image : la-boulangerie-honore.jpg
+adresseMap : https://maps.app.goo.gl/pPPx4KvoqmQdf8WK7
+
+}
+
+Restaurant 8 {
+nom : Springfield
+descirption : #fast-food
+prix : €
+distance : 2300 
+réputation : 2 etoiles
+image : springfield.jpg
+adresseMap : https://maps.app.goo.gl/Bt6xc8Gk2L3jMqXA9
+
+}
+
+Restaurant 9  {
+nom : La Loco
+descirption : #poisson
+prix : €€€
+distance : 1000
+réputation : 3 etoiles
+image : la-loco.jpg
+adresseMap : https://maps.app.goo.gl/Y6kRUgXG21vCfBH77
+
+}
+
+Restaurant 10  {
+nom : Tierra Maya
+descirption : #mexicain
+prix : €
+distance : 700 
+réputation : 4 etoiles
+image : tierra-maya.jpg
+adresseMap : https://maps.app.goo.gl/wPicHTwWADThmPo67
+
+}
+
+Restaurant 11  {
+nom : Back Bay
+descirption : #americain
+prix : €€
+distance :  850
+réputation : 4 etoiles
+image : back-bay.jpg
+adresseMap : https://maps.app.goo.gl/BweGPiR9y9hxABS27
+
+}
+
+Restaurant 12  {
+nom : La Recre
+descirption : #vegetarien
+prix : €€
+distance : 50 
+réputation : 4 etoiles
+image : la-recre.jpg
+adresseMap : https://maps.app.goo.gl/dUjXYyVWd7YPrWA26
+
+}
+
+
+
