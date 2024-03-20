@@ -9,9 +9,9 @@
     --secondary-font-family: "Montserrat", sans-serif;
 }
 
-* {
+/* * {
     border: solid 1px black;
-}
+} */
 
 body {
     box-sizing: border-box;
