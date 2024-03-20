@@ -15,14 +15,14 @@ function trierRestaurantsParCategorie(categorie) {
     const cartesNonFiltrees = document.querySelectorAll('.card:not([data-categorie="' + categorie + '"])');
 
     // Supprimer les cartes qui ne correspondent pas à la catégorie sélectionnée
-    cartesNonFiltrees.forEach(function(carte) {
+    cartesNonFiltrees.forEach(function (carte) {
         carte.remove();
         console.log("Carte supprimée :", carte);
     });
-    
+
 
     // Créer et afficher les cartes des restaurants sélectionnés
-    restaurantsFiltres.forEach(function(restaurant) {
+    restaurantsFiltres.forEach(function (restaurant) {
         let card = document.createElement("li");
         card.classList.add("card");
         card.dataset.categorie = categorie;
@@ -55,12 +55,12 @@ function trierRestaurantsParCategorie(categorie) {
         distance.classList.add("distance");
         distance.textContent = restaurant.distance + " m";
         div2.appendChild(distance);
-        
+
         let prix = document.createElement("p");
         prix.classList.add("price");
-        prix.textContent =  restaurant.prix;
+        prix.textContent = restaurant.prix;
         div2.appendChild(prix);
-        
+
         // a modifier avec l'image des étoile
         let reputation = document.createElement("p");
         reputation.classList.add("img-card");
@@ -79,11 +79,15 @@ function trierRestaurantsParCategorie(categorie) {
 
 
 const filtres = document.querySelectorAll('.filtre');
-filtres.forEach(filtre => {
-    filtre.addEventListener('click', function() {
+filtres.forEach((filtre) => {
+
+    filtre.addEventListener('click', function (event) {
+        console.log("event ", event);
+        event.target.classList.toggle("selected");
         const categorie = this.dataset.categorie;
         trierRestaurantsParCategorie(categorie);
     });
+
 });
 
 // const filtres = document.querySelectorAll('.filtre');
