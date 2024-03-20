@@ -170,7 +170,7 @@ let restaurants = [
     description : "Pizza",
     prix : "€€€",
     distance: 600,
-    href: "./restaurant.html",
+    href: "./restaurant_pazzi.html",
     reputation : 4 + " etoiles",
     image: {
     src : "./assets/restaurants/pazzi.jpg"
@@ -183,7 +183,7 @@ let restaurants = [
     description : "Sushi",
     prix : "€€€",
     distance : 170,
-    href: "./restaurant.html",
+    href: "./restaurant_omija.html",
     reputation : 5 +" etoiles",
     image: {
     src : "./assets/restaurants/omija.jpg"
@@ -196,7 +196,7 @@ let restaurants = [
     description : "Ramen",
     prix : "€€€",
     distance : 70,
-    href: "./restaurant.html",
+    href: "./restaurant_ichi_go_ramen.html",
     reputation : 5 +" etoiles",
     image: {
     src : "./assets/restaurants/ichi_go_ramen.png"
@@ -209,7 +209,7 @@ let restaurants = [
     description : "Bar",
     prix : "€€",
     distance :  220,
-    href: "./restaurant.html",
+    href: "./restaurant_le_cafe_du_marche.html",
     reputation : 3 + " etoiles",
     image: {
     src : "./assets/restaurants/le_cafe_du_marche.jpg"
@@ -222,7 +222,7 @@ let restaurants = [
     description : "Bar",
     prix : "€€",
     distance : 400,
-    href: "./restaurant.html",
+    href: "./restaurant_zygobar_2.html",
     reputation : 5 + " etoiles",
     image: {
     src : "./assets/restaurants/zygobar_2.jpg"
@@ -235,7 +235,7 @@ let restaurants = [
     description : "Sushi",
     prix : "€€€",
     distance : 160,
-    href: "./restaurant.html",
+    href: "./restaurant_izakaya_joyi.html",
     reputation : 5 + " etoiles",
     image: {
     src : "./assets/restaurants/izakaya_joyi.jpg"
@@ -248,7 +248,7 @@ let restaurants = [
     description : "Boulangerie",
     prix : "€",
     distance : 400,
-    href: "./restaurant.html",
+    href: "./restaurant_la_boulangerie_honore.html",
     reputation : 4 + " etoiles",
     image: {
     src : "./assets/restaurants/la_boulangerie_honore.jpg"
@@ -261,7 +261,7 @@ let restaurants = [
     description : "Fast-Food",
     prix : "€",
     distance : 2300,
-    href: "./restaurant.html",
+    href: "./restaurant_springfield.html",
     reputation : 2 + " etoiles",
     image: {
     src : "./assets/restaurants/springfield.jpg"
@@ -274,7 +274,7 @@ let restaurants = [
     description : "Poisson",
     prix : "€€€",
     distance : 1000,
-    href: "./restaurant.html",
+    href: "./restaurant_la_loco.html",
     reputation : 3 + " etoiles",
     image: {
     src : "./assets/restaurants/la_loco.jpg"
@@ -287,7 +287,7 @@ let restaurants = [
     description : "Mexicaine",
     prix : "€",
     distance : 700,
-    href: "./restaurant.html",
+    href: "./restaurant_tierra_maya.html",
     reputation : 4 + " etoiles",
     image: {
     src : "./assets/restaurants/tierra_maya.jpg"
@@ -300,7 +300,7 @@ let restaurants = [
     description : "Américaine",
     prix : "€€",
     distance :  850,
-    href: "./restaurant.html",
+    href: "./restaurant_back_bay.html",
     reputation : 4 + " etoiles" ,
     image: {
     src : "./assets/restaurants/back_bay.jpg",
@@ -313,7 +313,7 @@ let restaurants = [
     description : "Végétarien",
     prix : "€€",
     distance : 50,
-    href: "./restaurant.html",
+    href: "./restaurant_la_recre.html",
     reputation : 4 + " etoiles",
     image: {
     src : "./assets/restaurants/la_recre.jpg",
