@@ -170,10 +170,10 @@ let restaurants = [
     description : "Pizza",
     prix : "€€€",
     distance: 600,
-    href: "./restaurant.html",
+    href: "./restaurant_pazzi.html",
     reputation : 4 + " etoiles",
     image: {
-    src : "./assets/restaurants/pazzi.png"
+    src : "./assets/restaurants/pazzi.jpg"
     },
     adresseMap: "https://maps.app.goo.gl/PYhh4vrEuYpP9bi89"
     },
@@ -183,7 +183,7 @@ let restaurants = [
     description : "Sushi",
     prix : "€€€",
     distance : 170,
-    href: "./restaurant.html",
+    href: "./restaurant_omija.html",
     reputation : 5 +" etoiles",
     image: {
     src : "./assets/restaurants/omija.jpg"
@@ -196,10 +196,10 @@ let restaurants = [
     description : "Ramen",
     prix : "€€€",
     distance : 70,
-    href: "./restaurant.html",
+    href: "./restaurant_ichi_go_ramen.html",
     reputation : 5 +" etoiles",
     image: {
-    src : "./assets/restaurants/ichi-go-ramen.jpg"
+    src : "./assets/restaurants/ichi_go_ramen.png"
     },
     adresseMap : "https://maps.app.goo.gl/aQvtyLuXAV95aCHx9"
     },
@@ -209,10 +209,10 @@ let restaurants = [
     description : "Bar",
     prix : "€€",
     distance :  220,
-    href: "./restaurant.html",
+    href: "./restaurant_le_cafe_du_marche.html",
     reputation : 3 + " etoiles",
     image: {
-    src : "./assets/restaurants/le-cafe-du-marche.jpg"
+    src : "./assets/restaurants/le_cafe_du_marche.jpg"
     },
     adresseMap : "https://maps.app.goo.gl/VPTojd7YfrM8gTDF7"
     },
@@ -222,10 +222,10 @@ let restaurants = [
     description : "Bar",
     prix : "€€",
     distance : 400,
-    href: "./restaurant.html",
+    href: "./restaurant_zygobar_2.html",
     reputation : 5 + " etoiles",
     image: {
-    src : "./assets/restaurants/zygobar.jpg zygobar.2.jpg"
+    src : "./assets/restaurants/zygobar_2.jpg"
     },
     adresseMap : "https://maps.app.goo.gl/W8HF5WvLfjTjB8Ng9"
     },
@@ -235,10 +235,10 @@ let restaurants = [
     description : "Sushi",
     prix : "€€€",
     distance : 160,
-    href: "./restaurant.html",
+    href: "./restaurant_izakaya_joyi.html",
     reputation : 5 + " etoiles",
     image: {
-    src : "./assets/restaurants/izakaya-joyi.jpg"
+    src : "./assets/restaurants/izakaya_joyi.jpg"
     },
     adresseMap : "https://maps.app.goo.gl/uuHyFzCRUJTfQujMA"
     },
@@ -248,10 +248,10 @@ let restaurants = [
     description : "Boulangerie",
     prix : "€",
     distance : 400,
-    href: "./restaurant.html",
+    href: "./restaurant_la_boulangerie_honore.html",
     reputation : 4 + " etoiles",
     image: {
-    src : "./assets/restaurants/la-boulangerie-honore.jpg"
+    src : "./assets/restaurants/la_boulangerie_honore.jpg"
     },
     adresseMap : "https://maps.app.goo.gl/pPPx4KvoqmQdf8WK7"
     },
@@ -261,7 +261,7 @@ let restaurants = [
     description : "Fast-Food",
     prix : "€",
     distance : 2300,
-    href: "./restaurant.html",
+    href: "./restaurant_springfield.html",
     reputation : 2 + " etoiles",
     image: {
     src : "./assets/restaurants/springfield.jpg"
@@ -274,10 +274,10 @@ let restaurants = [
     description : "Poisson",
     prix : "€€€",
     distance : 1000,
-    href: "./restaurant.html",
+    href: "./restaurant_la_loco.html",
     reputation : 3 + " etoiles",
     image: {
-    src : "./assets/restaurants/la-loco.jpg"
+    src : "./assets/restaurants/la_loco.jpg"
     },
     adresseMap : "https://maps.app.goo.gl/Y6kRUgXG21vCfBH77"
     },
@@ -287,10 +287,10 @@ let restaurants = [
     description : "Mexicaine",
     prix : "€",
     distance : 700,
-    href: "./restaurant.html",
+    href: "./restaurant_tierra_maya.html",
     reputation : 4 + " etoiles",
     image: {
-    src : "./assets/restaurants/tierra-maya.jpg"
+    src : "./assets/restaurants/tierra_maya.jpg"
     },
     adresseMap : "https://maps.app.goo.gl/wPicHTwWADThmPo67"
     },
@@ -300,10 +300,10 @@ let restaurants = [
     description : "Américaine",
     prix : "€€",
     distance :  850,
-    href: "./restaurant.html",
+    href: "./restaurant_back_bay.html",
     reputation : 4 + " etoiles" ,
     image: {
-    src : "./assets/restaurants/back-bay.jpg",
+    src : "./assets/restaurants/back_bay.jpg",
     },
     adresseMap : "https://maps.app.goo.gl/BweGPiR9y9hxABS27"
     },
@@ -313,10 +313,10 @@ let restaurants = [
     description : "Végétarien",
     prix : "€€",
     distance : 50,
-    href: "./restaurant.html",
+    href: "./restaurant_la_recre.html",
     reputation : 4 + " etoiles",
     image: {
-    src : "./assets/restaurants/la-recre.jpg",
+    src : "./assets/restaurants/la_recre.jpg",
     },
     adresseMap : "https://maps.app.goo.gl/dUjXYyVWd7YPrWA26"
     }
