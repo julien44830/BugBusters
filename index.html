@@ -1,111 +1,120 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>THE WILD FORK</title>
-    <meta name="Description" content="Description du site">
-    <meta name="Keywords" content="mot,cle,de,la,page">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="contactstate" content="France">
-    <meta name="contactcity" content="Nantes">
-    <meta name="language" content="fr">
-    <link rel="stylesheet" href="styles/header-index.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/card-index.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/carousel.css">
-    <link rel="stylesheet" href="styles/button.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta name="Description" content="Description du site" />
+    <meta name="Keywords" content="mot,cle,de,la,page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="contactstate" content="France" />
+    <meta name="contactcity" content="Nantes" />
+    <meta name="language" content="fr" />
 
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" />
+    <link rel="stylesheet" href="styles/header-index.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/card-index.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/carousel.css" />
+    <link rel="stylesheet" href="styles/button.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"/>
 
-    <style>
-        .filtre.selected {
-            background-color: aqua !important;
-        }
-    </style>
-</head>
-
-<body>
-
-    <header class='background'>
-        <nav class="menu">
-
-            <h1><a href="index.html">THE WILD FORK</a></h1>
-
-            <ul class="link_menu">
-                <li id="connexion"><img id="user-icons" src="assets/icones/utilisateur (2).png"><a
-                        href="connect.html">Connexion</a></li>
-                <li id="inscription"><a href="register.html">Inscription</a></li>
-            </ul>
-
-        </nav>
-
-        <img src="./assets/background/thewildfork_logo.png" alt="logo">
-
-        <h2>Notre priorité, vous faire manger !</h2>
-
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <header class="background">
+      <nav class="menu">
+        <h1><a href="index.html">THE WILD FORK</a></h1>
+        <ul class="link_menu">
+          <li id="connexion">
+            <img id="user-icons"
+              src="assets/icones/utilisateur.png"
+              alt="logo"
+            /><a href="connect.html">Connexion</a>
+          </li>
+          <li id="inscription">
+            <img id="user-icons"
+            src="assets/icones/inscription_icone.png"
+            alt="logo">
+            <a href="register.html">Inscription</a></li>
+        </ul>
+      </nav>
+      <img src="./assets/background/thewildfork_logo.png" alt="logo" />
+      <h2>Notre priorité, vous faire manger !</h2>
     </header>
-
     <div class="slider_contener">
-        <div class="wrapper">
-            <ul class="carousel" data-target="carousel">
-
-                <li class="card-carousel" data-target="card">
-                    <a href="">
-                        <h3 class="titre-restaurant">titre du restaurant</h3>
-                        <img class="img-carousel" src="assets/restaurants/restaurant_1.png" alt="">
-                    </a>
-                </li>
-
-
-                <li class="card-carousel" data-target="card">
-                    <a href="">
-                        <h3 class="titre-restaurant">titre du restaurant</h3>
-                        <img class="img-carousel" src="assets/restaurants/restaurant_2.png" alt="">
-                    </a>
-                </li>
-
-
-                <li class="card-carousel" data-target="card">
-                    <a href="">
-                        <h3 class="titre-restaurant">titre du restaurant</h3>
-                        <img class="img-carousel" src="assets/restaurants/restaurant_3.png" alt="">
-                    </a>
-                </li>
-
-
-                <li class="card-carousel " data-target="card">
-                    <a href="">
-                        <h3 class="titre-restaurant">titre du restaurant</h3>
-                        <img class="img-carousel" src="assets/restaurants/restaurant_1.png" alt="">
-                    </a>
-                </li>
-
-
-                <li class="card-carousel" data-target="card">
-                    <a href="">
-                        <h3 class="titre-restaurant">titre du restaurant</h3>
-                        <img class="img-carousel" src="assets/restaurants/restaurant_2.png" alt="">
-                    </a>
-                </li>
-
-            </ul>
-        </div>
-
-        <div class="button-wrapper">
-            <button data-action="slideLeft"><img class="fleche" src="assets/icones/fleche-retour.png" alt=""></button>
-            <button data-action="slideRight"><img class="fleche" src="assets/icones/fleche-suivant.png" alt=""></button>
-        </div>
-
+      <div class="wrapper">
+        <ul class="carousel" data-target="carousel">
+          <li class="card-carousel" data-target="card">
+            <a href="">
+              <h3 class="titre-restaurant">titre du restaurant</h3>
+              <img
+                class="img-carousel"
+                src="assets/restaurants/restaurant_1.png"
+                alt="resto"
+              />
+            </a>
+          </li>
+          <li class="card-carousel" data-target="card">
+            <a href="">
+              <h3 class="titre-restaurant">titre du restaurant</h3>
+              <img
+                class="img-carousel"
+                src="assets/restaurants/restaurant_2.png"
+                alt="resto"
+              />
+            </a>
+          </li>
+          <li class="card-carousel" data-target="card">
+            <a href="">
+              <h3 class="titre-restaurant">titre du restaurant</h3>
+              <img
+                class="img-carousel"
+                src="assets/restaurants/restaurant_3.png"
+                alt="resto"
+              />
+            </a>
+          </li>
+          <li class="card-carousel" data-target="card">
+            <a href="">
+              <h3 class="titre-restaurant">titre du restaurant</h3>
+              <img
+                class="img-carousel"
+                src="assets/restaurants/restaurant_1.png"
+                alt="resto"
+              />
+            </a>
+          </li>
+          <li class="card-carousel" data-target="card">
+            <a href="">
+              <h3 class="titre-restaurant">titre du restaurant</h3>
+              <img
+                class="img-carousel"
+                src="assets/restaurants/restaurant_2.png"
+                alt="resto"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="button-wrapper">
+        <button data-action="slideLeft">
+          <img
+            class="fleche"
+            src="assets/icones/fleche-retour.png"
+            alt="pr&eacute;c&eacute;dent"
+          />
+        </button>
+        <button data-action="slideRight">
+          <img
+            class="fleche"
+            src="assets/icones/fleche-suivant.png"
+            alt="suivant"
+          />
+        </button>
+      </div>
     </div>
-
-
     <section id="filtre">
         <h2>Catégories :</h2>
         <ul class="ul-btn">
@@ -221,19 +230,20 @@
 
 
     <footer>
-        <p>Copyright &#169; : BugBuster</p>
-        <img src="/assets/background/thewildfork_logo.png" alt="logo">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-            <li><a href="about.html">About Us</a></li>
-        </ul>
-    </footer>
-    <script src="scripts/restaurant_card.js" type="module"></script>
-    <script src="scripts/button-categorie.js" type="module"></script>
+      <p>Copyright &#169;: BugBuster</p>
+      <img src="/assets/background/thewildfork_logo.png" alt="logo" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </footer
+      
     <script src="scripts/button.js" type="module"></script>
     <script src="scripts/carousel.js"></script>
+    <script src="scripts/restaurant_card.js" type="module"></script>
+    <script src="scripts/button-categorie.js" type="module"></script>
     <script src="scripts/buttonfiltre.js" type="module"></script>
-</body>
 
+</body>
 </html>

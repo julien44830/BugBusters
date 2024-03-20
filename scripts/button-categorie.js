@@ -89,3 +89,17 @@ filtres.forEach((filtre) => {
     });
 
 });
+
+// const filtres = document.querySelectorAll('.filtre');
+// filtres.forEach(filtre => {
+//     filtre.addEventListener('click', function() {
+//         const categorie = this.dataset.categorie;
+//         trierRestaurantsParCategorie(categorie);
+//         filtres.forEach(filtre => {
+//             filtre.style.backgroundColor = '';
+//         });
+
+//         // Changer la couleur de fond du bouton cliqué
+//         this.style.backgroundColor = '#8d0008';
+//     });
+// });
