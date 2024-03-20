@@ -155,7 +155,7 @@ let restaurants = [
     },
     adresseMap : "https://maps.app.goo.gl/dUjXYyVWd7YPrWA26"
     }
-
+]
 console.log("liste des carte restaurant ", restaurants);
 
 
