@@ -9,9 +9,9 @@
     --secondary-font-family: "Montserrat", sans-serif;
 }
 
-* {
+/* * {
     border: solid 1px black;
-}
+} */
 
 body {
     box-sizing: border-box;
@@ -87,23 +87,26 @@ label {
 }
 
 
-#message,
-#mail {
+#name,
+#mail,
+#password,
+#confirm-password {
     border-radius: 5px 5px 5px 5px;
     width: 80%;
+    height: max-content;
 }
 
-
-#message {
-    height: 100px
-}
-
-#mail>input {
+#name>input,
+#mail>input,
+#password>input,
+#confirm-password>input {
     height: 2rem;
+    border: none;
 }
 
-input {
-    border: none;
+#newsletter {
+    display: flex;
+    flex-direction: row;
 }
 
 form>button {
