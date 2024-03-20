@@ -21,17 +21,24 @@
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" />
+
+    <style>
+        .filtre.selected {
+            background-color: aqua !important;
+        }
+    </style>
 </head>
 
 <body>
 
-    <header class='background'> 
+    <header class='background'>
         <nav class="menu">
 
             <h1><a href="index.html">THE WILD FORK</a></h1>
 
             <ul class="link_menu">
-                <li id="connexion"><img id="user-icons" src="assets/icones/utilisateur (2).png"><a href="connect.html">Connexion</a></li>
+                <li id="connexion"><img id="user-icons" src="assets/icones/utilisateur (2).png"><a
+                        href="connect.html">Connexion</a></li>
                 <li id="inscription"><a href="register.html">Inscription</a></li>
             </ul>
 
@@ -45,56 +52,56 @@
 
     </header>
 
-        <div class="slider_contener">
-            <div class="wrapper">
-                <ul class="carousel" data-target="carousel">
+    <div class="slider_contener">
+        <div class="wrapper">
+            <ul class="carousel" data-target="carousel">
 
-                    <li class="card-carousel" data-target="card">
-                        <a href="">
-                            <h3 class="titre-restaurant">titre du restaurant</h3>
-                            <img class="img-carousel" src="assets/restaurants/restaurant_1.png" alt="">
-                        </a>
-                    </li>
-
-
-                    <li class="card-carousel" data-target="card">
-                        <a href="">
-                            <h3 class="titre-restaurant">titre du restaurant</h3>
-                            <img class="img-carousel" src="assets/restaurants/restaurant_2.png" alt="">
-                        </a>
-                    </li>
+                <li class="card-carousel" data-target="card">
+                    <a href="">
+                        <h3 class="titre-restaurant">titre du restaurant</h3>
+                        <img class="img-carousel" src="assets/restaurants/restaurant_1.png" alt="">
+                    </a>
+                </li>
 
 
-                    <li class="card-carousel" data-target="card">
-                        <a href="">
-                            <h3 class="titre-restaurant">titre du restaurant</h3>
-                            <img class="img-carousel" src="assets/restaurants/restaurant_3.png" alt="">
-                        </a>
-                    </li>
+                <li class="card-carousel" data-target="card">
+                    <a href="">
+                        <h3 class="titre-restaurant">titre du restaurant</h3>
+                        <img class="img-carousel" src="assets/restaurants/restaurant_2.png" alt="">
+                    </a>
+                </li>
 
 
-                    <li class="card-carousel " data-target="card">
-                        <a href="">
-                            <h3 class="titre-restaurant">titre du restaurant</h3>
-                            <img class="img-carousel" src="assets/restaurants/restaurant_1.png" alt="">
-                        </a>
-                    </li>
+                <li class="card-carousel" data-target="card">
+                    <a href="">
+                        <h3 class="titre-restaurant">titre du restaurant</h3>
+                        <img class="img-carousel" src="assets/restaurants/restaurant_3.png" alt="">
+                    </a>
+                </li>
 
 
-                    <li class="card-carousel" data-target="card">
-                        <a href="">
-                            <h3 class="titre-restaurant">titre du restaurant</h3>
-                            <img class="img-carousel" src="assets/restaurants/restaurant_2.png" alt="">
-                        </a>
-                    </li>
+                <li class="card-carousel " data-target="card">
+                    <a href="">
+                        <h3 class="titre-restaurant">titre du restaurant</h3>
+                        <img class="img-carousel" src="assets/restaurants/restaurant_1.png" alt="">
+                    </a>
+                </li>
 
-                </ul>
-            </div>
 
-            <div class="button-wrapper">
-                <button data-action="slideLeft"><img class="fleche" src="assets/icones/fleche-retour.png" alt=""></button>
-                <button data-action="slideRight"><img class="fleche" src="assets/icones/fleche-suivant.png" alt=""></button>
-            </div>
+                <li class="card-carousel" data-target="card">
+                    <a href="">
+                        <h3 class="titre-restaurant">titre du restaurant</h3>
+                        <img class="img-carousel" src="assets/restaurants/restaurant_2.png" alt="">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="button-wrapper">
+            <button data-action="slideLeft"><img class="fleche" src="assets/icones/fleche-retour.png" alt=""></button>
+            <button data-action="slideRight"><img class="fleche" src="assets/icones/fleche-suivant.png" alt=""></button>
+        </div>
 
     </div>
 
@@ -151,7 +158,7 @@
                 </button>
             </li>
             <li>
-                <button class="filtre"data-categorie="Végétarien">
+                <button class="filtre" data-categorie="Végétarien">
                     <p>Végétarien</p>
                     <img class="btn-img" src="assets/icones/salade_icone.png" />
                 </button>
@@ -165,7 +172,7 @@
         </ul>
         <ul class="plus">
             <li>
-                <button class="filtreplus">
+                <button class="filtreplus prix-btn">
                     <div>
                         <p>Prix</p>
                         <img class="imgplus btn-img" src="assets\icones\euro_blanc.png" />
@@ -174,7 +181,7 @@
                 </button>
             </li>
             <li>
-                <button class="filtreplus">
+                <button class="filtreplus distance-btn">
                     <div>
                         <p>Distance</p>
                         <img class="imgplus btn-img" src="assets\icones\marcher_blanc (1).png" />
@@ -183,7 +190,7 @@
                 </button>
             </li>
             <li>
-                <button class="filtreplus">
+                <button class="filtreplus note-btn">
                     <div>
                         <p>Note</p>
                         <img class="imgplus btn-img" src="assets\icones\etoile_blanc.png" />
@@ -201,11 +208,11 @@
 
 
     <section class="card-index">
-        
-        
+
+
         <ul class="container_card">
             <!-- appel pour mettre en quinconce show_article_reverse --PAs de quinconce demandé !-->
-        
+
         </ul>
 
 
@@ -213,7 +220,6 @@
 
 
 
-    
     <footer>
         <p>Copyright &#169; : BugBuster</p>
         <img src="/assets/background/thewildfork_logo.png" alt="logo">
@@ -227,6 +233,7 @@
     <script src="scripts/button-categorie.js" type="module"></script>
     <script src="scripts/button.js" type="module"></script>
     <script src="scripts/carousel.js"></script>
+    <script src="scripts/buttonfiltre.js" type="module"></script>
 </body>
 
 </html>
