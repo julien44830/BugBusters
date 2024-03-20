@@ -9,18 +9,17 @@
     <meta name="contactstate" content="France" />
     <meta name="contactcity" content="Nantes" />
     <meta name="language" content="fr" />
+
     <link rel="stylesheet" href="styles/header-index.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/card-index.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/carousel.css" />
     <link rel="stylesheet" href="styles/button.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"/>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
-    />
   </head>
 
   <body>
@@ -29,13 +28,16 @@
         <h1><a href="index.html">THE WILD FORK</a></h1>
         <ul class="link_menu">
           <li id="connexion">
-            <img
-              id="user-icons"
-              src="assets/icones/utilisateur(2).png"
+            <img id="user-icons"
+              src="assets/icones/utilisateur.png"
               alt="logo"
             /><a href="connect.html">Connexion</a>
           </li>
-          <li id="inscription"><a href="register.html">Inscription</a></li>
+          <li id="inscription">
+            <img id="user-icons"
+            src="assets/icones/inscription_icone.png"
+            alt="logo">
+            <a href="register.html">Inscription</a></li>
         </ul>
       </nav>
       <img src="./assets/background/thewildfork_logo.png" alt="logo" />
@@ -115,10 +117,6 @@
     </div>
     <section id="filtre">
       <h2>Catégories :</h2>
-      <ul class="ul-btn hide_button">
-        <li class="filtre">filtre</li>
-        <li>prix</li>
-      </ul>
       <ul class="ul-btn hide_button1">
         <li>
           <button class="filtre" data-categorie="Pizza">
@@ -202,7 +200,7 @@
             Distance
             <img
               class="imgplus btn-img"
-              src="assets/icones/distance_blanc(1).png"
+              src="assets/icones/distance_blanc.png"
               alt="distance"
             />
             <img
@@ -245,6 +243,7 @@
     </footer>
     <script src="scripts/button.js"></script>
     <script src="scripts/carousel.js"></script>
-    <script src="scripts/restaurant_card.js"></script>
+    <script src="scripts/restaurant_card.js" type="module"></script>
+    <script src="scripts/button-categorie.js" type="module"></script>
   </body>
 </html>
