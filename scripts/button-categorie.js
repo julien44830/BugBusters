@@ -62,10 +62,11 @@ function trierRestaurantsParCategorie(categorie) {
         div2.appendChild(prix);
 
         // a modifier avec l'image des étoile
-        let reputation = document.createElement("p");
-        reputation.classList.add("img-card");
-        reputation.textContent = restaurant.reputation;
-        div.appendChild(reputation);
+        let imageReputation = document.createElement("img");
+        imageReputation.classList.add("img-card");
+        imageReputation.src = restaurant.imageReputation.src;
+        div.appendChild(imageReputation);
+    
         //////////////////////////////////////
 
         let description = document.createElement("p");
