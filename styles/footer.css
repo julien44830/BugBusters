@@ -43,7 +43,7 @@ footer>ul {
 
 footer>ul>li>a {
     font-family: 'Montserrat';
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: white;
     font: none;
 }
@@ -51,7 +51,7 @@ footer>ul>li>a {
 
 footer>p {
     font-family: 'Montserrat';
-    font-size: 1rem;
+    font-size: 1.5rem;
     width: 33%;
     color: white;
 }
