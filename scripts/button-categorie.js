@@ -82,8 +82,13 @@ const filtres = document.querySelectorAll('.filtre');
 filtres.forEach((filtre) => {
 
     filtre.addEventListener('click', function (event) {
-        console.log("event ", event);
-        event.target.classList.toggle("selected");
+        if (event.target.classList.contains("active")) {
+            event.target.classList.remove("active")
+        } else {
+            filtres.forEach(btnFiltre => btnFiltre.classList.remove("active"))
+            event.target.classList.add("active")
+        }
+
         const categorie = this.dataset.categorie;
         trierRestaurantsParCategorie(categorie);
     });
