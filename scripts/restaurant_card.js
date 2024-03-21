@@ -10,6 +10,9 @@ let restaurants = [
         image: {
             src: "./assets/restaurants/pazzi.jpg"
         },
+        imageReputation: {
+            src: "./assets/icones/4_etoiles.png"
+        },
         adresseMap: "https://maps.app.goo.gl/PYhh4vrEuYpP9bi89"
     },
 
@@ -22,6 +25,9 @@ let restaurants = [
         reputation: 5,
         image: {
             src: "./assets/restaurants/omija.jpg"
+        },
+        imageReputation: {
+            src: "./assets/icones/5_etoiles.png"
         },
         adresseMap: "https://maps.app.goo.gl/uJZ71K1CRviBLsJP8"
     },
@@ -36,6 +42,9 @@ let restaurants = [
         image: {
             src: "./assets/restaurants/ichi_go_ramen.png"
         },
+        imageReputation: {
+            src: "./assets/icones/5_etoiles.png"
+        },
         adresseMap: "https://maps.app.goo.gl/aQvtyLuXAV95aCHx9"
     },
 
@@ -48,6 +57,9 @@ let restaurants = [
         reputation: 3,
         image: {
             src: "./assets/restaurants/le_cafe_du_marche.jpg"
+        },
+        imageReputation: {
+            src: "./assets/icones/3_etoiles.png"
         },
         adresseMap: "https://maps.app.goo.gl/VPTojd7YfrM8gTDF7"
     },
@@ -62,6 +74,9 @@ let restaurants = [
         image: {
             src: "./assets/restaurants/zygobar_2.jpg"
         },
+        imageReputation: {
+            src: "./assets/icones/5_etoiles.png"
+        },
         adresseMap: "https://maps.app.goo.gl/W8HF5WvLfjTjB8Ng9"
     },
 
@@ -74,6 +89,9 @@ let restaurants = [
         reputation: 5,
         image: {
             src: "./assets/restaurants/izakaya_joyi.jpg"
+        },
+        imageReputation: {
+            src: "./assets/icones/5_etoiles.png"
         },
         adresseMap: "https://maps.app.goo.gl/uuHyFzCRUJTfQujMA"
     },
@@ -88,6 +106,9 @@ let restaurants = [
         image: {
             src: "./assets/restaurants/la_boulangerie_honore.jpg"
         },
+        imageReputation: {
+            src: "./assets/icones/4_etoiles.png"
+        },
         adresseMap: "https://maps.app.goo.gl/pPPx4KvoqmQdf8WK7"
     },
 
@@ -99,7 +120,10 @@ let restaurants = [
         href: "./restaurant_springfield.html",
         reputation: 2,
         image: {
-            src: "./assets/restaurants/springfield.jpg"
+            src: "./assets/restaurants/springfield_2.jpg"
+        },
+        imageReputation: {
+            src: "./assets/icones/2_etoiles.png"
         },
         adresseMap: "https://maps.app.goo.gl/Bt6xc8Gk2L3jMqXA9"
     },
@@ -114,6 +138,9 @@ let restaurants = [
         image: {
             src: "./assets/restaurants/la_loco.jpg"
         },
+        imageReputation: {
+            src: "./assets/icones/3_etoiles.png"
+        },
         adresseMap: "https://maps.app.goo.gl/Y6kRUgXG21vCfBH77"
     },
 
@@ -126,6 +153,9 @@ let restaurants = [
         reputation: 4,
         image: {
             src: "./assets/restaurants/tierra_maya.jpg"
+        },
+        imageReputation: {
+            src: "./assets/icones/4_etoiles.png"
         },
         adresseMap: "https://maps.app.goo.gl/wPicHTwWADThmPo67"
     },
@@ -140,6 +170,9 @@ let restaurants = [
         image: {
             src: "./assets/restaurants/back_bay.jpg",
         },
+        imageReputation: {
+            src: "./assets/icones/4_etoiles.png"
+        },
         adresseMap: "https://maps.app.goo.gl/BweGPiR9y9hxABS27"
     },
 
@@ -152,6 +185,9 @@ let restaurants = [
         reputation: 4,
         image: {
             src: "./assets/restaurants/la_recre.jpg",
+        },
+        imageReputation: {
+            src: "./assets/icones/4_etoiles.png"
         },
         adresseMap: "https://maps.app.goo.gl/dUjXYyVWd7YPrWA26"
     }
@@ -206,15 +242,15 @@ restaurants.forEach(function (restaurant) {
     prix.textContent = restaurant.prix;
     div2.appendChild(prix);
 
-    // let reputation = document.createElement("img");
-    // reputation.classList.add("img-card");
-    // reputation.src = restaurant.src;
-    // div.appendChild(reputation);
+    let imageReputation = document.createElement("img");
+    imageReputation.classList.add("img-card");
+    imageReputation.src = restaurant.imageReputation.src;
+    div.appendChild(imageReputation);
 
-    let reputation = document.createElement("p");
-    reputation.classList.add("img-card");
-    reputation.textContent = restaurant.reputation;
-    div.appendChild(reputation);
+    // let reputation = document.createElement("p");
+    // reputation.classList.add("img-card");
+    // reputation.textContent = restaurant.reputation;
+    // div.appendChild(reputation);
 
     let description = document.createElement("p");
     description.classList.add("A");

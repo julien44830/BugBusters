@@ -1,6 +1,5 @@
 
 const buttonTest = document.querySelectorAll(".filtre");
-console.log(buttonTest);
 
 buttonTest.forEach((a) =>{
 
@@ -17,7 +16,6 @@ buttonTest.forEach((a) =>{
 });
 
 const buttonPlus = document.querySelectorAll(".filtreplus");
-console.log(buttonPlus);
 
 buttonPlus.forEach((a) =>{
 
