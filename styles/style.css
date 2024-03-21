@@ -65,3 +65,10 @@ header{
     animation-delay: 3s;
 }
 
+/* .filtre.selected {
+    background-color: var(--main-background-color) !important;
+} */
+
+.active{
+    background-color: var(--main-background-color) !important;
+}
