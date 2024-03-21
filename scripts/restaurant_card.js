@@ -6,7 +6,7 @@ let restaurants = [
         prix: "€€€",
         distance: 600,
         href: "./restaurant_pazzi.html",
-        reputation: 4 + " etoiles",
+        reputation: 4,
         image: {
             src: "./assets/restaurants/pazzi.jpg"
         },
@@ -19,7 +19,7 @@ let restaurants = [
         prix: "€€€",
         distance: 170,
         href: "./restaurant_omija.html",
-        reputation: 5 + " etoiles",
+        reputation: 5,
         image: {
             src: "./assets/restaurants/omija.jpg"
         },
@@ -32,7 +32,7 @@ let restaurants = [
         prix: "€€€",
         distance: 70,
         href: "./restaurant_ichi_go_ramen.html",
-        reputation: 5 + " etoiles",
+        reputation: 5,
         image: {
             src: "./assets/restaurants/ichi_go_ramen.png"
         },
@@ -45,7 +45,7 @@ let restaurants = [
         prix: "€€€",
         distance: 220,
         href: "./restaurant_le_cafe_du_marche.html",
-        reputation: 3 + " etoiles",
+        reputation: 3,
         image: {
             src: "./assets/restaurants/le_cafe_du_marche.jpg"
         },
@@ -58,7 +58,7 @@ let restaurants = [
         prix: "€€",
         distance: 400,
         href: "./restaurant_zygobar_2.html",
-        reputation: 5 + " etoiles",
+        reputation: 5,
         image: {
             src: "./assets/restaurants/zygobar_2.jpg"
         },
@@ -71,7 +71,7 @@ let restaurants = [
         prix: "€€€",
         distance: 160,
         href: "./restaurant_izakaya_joyi.html",
-        reputation: 5 + " etoiles",
+        reputation: 5,
         image: {
             src: "./assets/restaurants/izakaya_joyi.jpg"
         },
@@ -84,7 +84,7 @@ let restaurants = [
         prix: "€",
         distance: 400,
         href: "./restaurant_la_boulangerie_honore.html",
-        reputation: 4 + " etoiles",
+        reputation: 4,
         image: {
             src: "./assets/restaurants/la_boulangerie_honore.jpg"
         },
@@ -97,7 +97,7 @@ let restaurants = [
         prix: "€",
         distance: 2300,
         href: "./restaurant_springfield.html",
-        reputation: 2 + " etoiles",
+        reputation: 2,
         image: {
             src: "./assets/restaurants/springfield.jpg"
         },
@@ -110,7 +110,7 @@ let restaurants = [
         prix: "€€€",
         distance: 1000,
         href: "./restaurant_la_loco.html",
-        reputation: 3 + " etoiles",
+        reputation: 3,
         image: {
             src: "./assets/restaurants/la_loco.jpg"
         },
@@ -123,7 +123,7 @@ let restaurants = [
         prix: "€",
         distance: 700,
         href: "./restaurant_tierra_maya.html",
-        reputation: 4 + " etoiles",
+        reputation: 4,
         image: {
             src: "./assets/restaurants/tierra_maya.jpg"
         },
@@ -136,7 +136,7 @@ let restaurants = [
         prix: "€€",
         distance: 850,
         href: "./restaurant_back_bay.html",
-        reputation: 4 + " etoiles",
+        reputation: 4,
         image: {
             src: "./assets/restaurants/back_bay.jpg",
         },
@@ -149,7 +149,7 @@ let restaurants = [
         prix: "€€",
         distance: 50,
         href: "./restaurant_la_recre.html",
-        reputation: 4 + " etoiles",
+        reputation: 4,
         image: {
             src: "./assets/restaurants/la_recre.jpg",
         },
