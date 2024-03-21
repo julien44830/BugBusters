@@ -70,23 +70,20 @@ h1>a {
 
 #inscription,
 #inscription>a {
+    display: flex;
+    flex-direction: row;
     background: black;
     color: #FFFF;
     text-decoration: none;
 
 }
 
-#connexion:hover {
-    background: #000;
+#connexion:hover,
+#connexion:hover>a {
+    background: var(--main-background-color);
 }
 
-#inscription:hover {
-    color: black;
-    background: white;
-    outline: black solid;
-}
-
-#inscription>a:hover {
-    color: black;
-    background: white;
+#inscription:hover,
+#inscription:hover>a {
+    background: var(--main-background-color);
 }

@@ -9,7 +9,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: solid 1px black;
+    /* border: solid 1px black; */
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 }
 
 main {
-    padding: 10%;
+    padding: 4%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -31,7 +31,7 @@ main {
 /* -------Partie restaurant : Img + Articles------- */
 .restaurant-content {
     display: flex;
-    padding: 0;
+    padding: 20px;
     justify-content: space-around;
     max-height: max-content;
 }
@@ -40,14 +40,18 @@ main {
 .rest-img {
     width: 50%;
     margin: 10px;
+    margin-right: 20px;
     display: flex;
     align-items: center;
+    background-color: var(--background-color);
+    box-shadow: 6px 7px 7px -3px #000000;
 }
 
 .rest-img>img {
-    box-shadow: 6px 7px 7px -3px #000000;
+  
     width: 100%;
     height: auto;
+
 }
 
 /* ---Article restaurant--- */
@@ -60,7 +64,7 @@ main {
     margin: 10px;
     font-size: 20px;
     width: 50%;
-    height: max-content;
+    height: inherit;
     top: 0;
 }
 
@@ -70,13 +74,14 @@ main {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 60px;
     margin: 20px 0px 20px 0px;
 }
 
 .describe>p {
-    margin: 40px;
-    width: 250px;
+    margin: 60px;
+    width: 500px;
+    font-size: 30px;
 }
 
 /* Img de la notation */
@@ -86,16 +91,17 @@ h2 {
 }
 
 .notation>img {
-    width: 50px
+    width: 80px;
 }
 
 /* zone prix et distance */
 .price-distance>p {
-    text-align: center;
-    width: 80px;
     background-color: #D9D9D9;
-    margin: 20px;
     border-radius: 40px;
+    margin: 20px;
+    width: 150px;
+    text-align: center;
+    font-size: 30px;
 }
 
 
@@ -103,6 +109,7 @@ h2 {
 .price-distance {
     display: flex;
     justify-content: space-around;
+
 }
 
 hr {
@@ -124,4 +131,5 @@ hr.separator-end {
 .map>iframe {
     width: 100%;
     margin: 10px;
+    padding: 20px;
 }
