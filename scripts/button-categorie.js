@@ -79,17 +79,70 @@ function trierRestaurantsParCategorie(categorie) {
 
 
 const filtres = document.querySelectorAll('.filtre');
-filtres.forEach((filtre) => {
 
+
+// Ajouter un écouteur d'événements à chaque filtre
+filtres.forEach((filtre) => {
     filtre.addEventListener('click', function (event) {
-        console.log("event ", event);
+        // this.style.backgroundColor = 'var(--primary-background-color)';
+        // this.style.backgroundColor = 'var(--main-background-color)';
         event.target.classList.toggle("selected");
         const categorie = this.dataset.categorie;
+        
         trierRestaurantsParCategorie(categorie);
+        
+        // Changer la couleur de fond du bouton cliqué
     });
-
 });
 
+// Ajouter un écouteur d'événements pour gérer la sélection des filtres
+filtres.forEach((filtre) => {
+    filtre.addEventListener('click', () => {
+        // Supprimer la classe active de tous les boutons
+        filtres.forEach(b => b.classList.remove('active'));
+        console.log('ici je retire la class active');
+        // Ajouter la classe active uniquement au bouton cliqué
+        filtre.classList.add('active');
+        console.log('ici je rajoute la class active');
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// filtre.forEach(filtre => {
+//     categorie.style.backgroundColor = '';
+//     this.style.backgroundColor = 'var(--main-background-color)';
+// });
 // const filtres = document.querySelectorAll('.filtre');
 // filtres.forEach(filtre => {
 //     filtre.addEventListener('click', function() {
