@@ -48,7 +48,7 @@ prixBtn.addEventListener('click', function () {
         return a.prix.length - b.prix.length
     });
 
-    restaurantsWithCategorySelectedArr.forEach(function (restaurant) {
+     restaurantsWithCategorySelectedArr.forEach(function (restaurant) {
         let card = document.createElement("li");
         card.classList.add("card");
         // card.dataset.categorie = categorie;
@@ -108,28 +108,25 @@ distanceBtn.addEventListener('click', function () {
 
     container.innerHTML = '';
 
-    restaurantsFiltreDistance.sort((a, b) => {
-        return a.distance.length - b.distance.length
-    })
-    const restaurantsSelectedArray = document.querySelectorAll('.filtre.selected');
-    const categoriesArray = [];
+    const restaurantsSelected =document.querySelector('.filtre.active');
 
-    for (let i = 0; i < restaurantsSelectedArray.length; i++) {
-        const resto = restaurantsSelectedArray[i];
-        categoriesArray.push(resto.dataset.categorie);
-    }
+    const categorie = restaurantsSelected.dataset.categorie;
 
-    const restaurantsFiltreDistance = []
-
+    const restaurantsWithCategorySelectedArr = [];
     for (let i = 0; i < restaurantsFiltreDistance.length; i++) {
         const resto = restaurantsFiltreDistance[i];
-        if (categoriesArray.includes(resto.description)) {
-            restaurantsFiltreDistanceSelectedArray.push(resto)
+
+        if (categorie === resto.description) {
+            restaurantsWithCategorySelectedArr.push(resto)
         }
     }
 
-    restaurantsFiltreDistanceSelectedArray.forEach(function (restaurant) {
-        console.log("toto");
+    restaurantsWithCategorySelectedArr.sort((a, b) => {
+        return a.distance.length - b.distance.length
+    });
+
+    restaurantsWithCategorySelectedArr.forEach(function (restaurant) {
+        console.log("i am distance button");
         let card = document.createElement("li");
         card.classList.add("card");
         // card.dataset.categorie = categorie;
@@ -184,30 +181,28 @@ distanceBtn.addEventListener('click', function () {
     });
 });
 noteBtn.addEventListener('click', function () {
+
     container.innerHTML = '';
 
-    restaurantsFiltreNote.sort((a, b) => {
-        return a.note.length - b.note.length
-    });
-    const restaurantsSelectedArray = document.querySelectorAll('.filtre.selected')
+    const restaurantsSelected = document.querySelector('.filtre.active');
+    
+    const categorie = restaurantsSelected.dataset.categorie;
 
-    const categoriesArray = [];
-    for (let i = 0; i < restaurantsSelectedArray.length; i++) {
-        const resto = restaurantsFiltreNote[i];
-        categoriesArray.push(resto.dataset.categorie)
-    }
-
-    const restaurantsFiltreNoteSelectedArray = []
+    const restaurantsWithCategorySelectedArr = [];
     for (let i = 0; i < restaurantsFiltreNote.length; i++) {
         const resto = restaurantsFiltreNote[i];
 
-        if (categoriesArray.includes(resto.description)) {
-            restaurantsFiltreNoteSelectedArray.push(resto)
+        if (categorie === resto.description) {
+            restaurantsWithCategorySelectedArr.push(resto)
         }
     }
 
-    restaurantsFiltreNoteSelectedArray.forEach(function (restaurant) {
-        console.log("toto");
+    restaurantsWithCategorySelectedArr.sort((a, b) => {
+        return a.note - b.note
+    });
+
+    restaurantsWithCategorySelectedArr.forEach(function (restaurant) {
+        console.log("i am note button");
         let card = document.createElement("li");
         card.classList.add("card");
         // card.dataset.categorie = categorie;
