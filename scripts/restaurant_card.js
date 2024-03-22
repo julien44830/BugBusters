@@ -54,7 +54,7 @@ let restaurants = [
         prix: "€€€",
         distance: 220,
         href: "./restaurant_le_cafe_du_marche.html",
-        reputation: ,
+        reputation: 2,
         image: {
             src: "./assets/restaurants/le_cafe_du_marche.jpg"
         },
