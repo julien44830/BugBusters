@@ -4,23 +4,15 @@
     --main-background-color: rgb(199, 133, 0, 70%);
     --primary-font-color: #FFFF;
     --secondary-font-color: #0000;
-
     --primary-font-family: "Crimson Text", serif;
     --secondary-font-family: "Montserrat", sans-serif;
 }
-
-/* * {
-    border: solid 1px black;
-} */
-
 body {
     box-sizing: border-box;
     background-color: var(--body-background-color);
     margin: 0px;
     height: 100%;
 }
-
-
 main {
     background-color: var(--main-background-color);
     border-radius: 10px;
@@ -29,36 +21,32 @@ main {
     display: flex;
     flex-direction: column;
 }
-
 /* main  */
 div {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 10rem;
     padding: 2rem;
     justify-content: center;
 }
-
 h2 {
     color: var(--primary-font-color);
     font-family: var(--primary-font-family);
     text-align: center;
     padding-top: 2rem;
-
+    font-size: 3rem;
 }
-
 #logo {
-    width: 10rem;
+    width: 15rem;
+    height: auto;
     border-radius: 10px;
 }
-
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 ul {
     display: flex;
     flex-direction: column;
@@ -67,62 +55,54 @@ ul {
     width: 90%;
     gap: 1.5rem;
     padding: 0;
-
-
 }
-
 li {
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
-
 }
-
-
 label {
     color: var(--primary-font-color);
     font-family: var(--secondary-font-family);
-    font-size: 1.2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
-
-
 #name,
 #mail,
 #password,
 #confirm-password {
-    border-radius: 5px 5px 5px 5px;
-    width: 80%;
+    border-radius: 15px;
+    width: 100%;
     height: max-content;
 }
-
 #name>input,
 #mail>input,
 #password>input,
 #confirm-password>input {
-    height: 2rem;
+    height: 2em;
     border: none;
+    font-size: 1.5em;
 }
-
 #newsletter {
     display: flex;
     flex-direction: row;
 }
-
 form>button {
-    width: 8rem;
-    height: 2rem;
+    /* width: 12rem; */
+    height: 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
     background-color: var(--primary-background-color);
     color: var(--primary-font-color);
     font-family: var(--primary-font-family);
-    font-size: 1rem;
     border-radius: 10px;
     margin: 1rem;
-    margin-left: 25rem;
+    margin-left: 25em;
     border: none;
+    padding: 0 2rem;
 }
-
 form>button:hover {
     background-color: black;
 }
