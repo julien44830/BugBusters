@@ -26,14 +26,19 @@ prixBtn.addEventListener('click', function () {
     // chopper que les resto avec categorie selectioné
     const restaurantsSelected = document.querySelector('.filtre.active');
 
-    const categorie = restaurantsSelected.dataset.categorie;
 
     const restaurantsWithCategorySelectedArr = [];
-    for (let i = 0; i < restaurantsFiltrePrix.length; i++) {
-        const resto = restaurantsFiltrePrix[i];
+    if (restaurantsSelected === null) {
+        restaurantsWithCategorySelectedArr.push(...restaurants)
+    } else {
+        const categorie = restaurantsSelected.dataset.categorie;
 
-        if (categorie === resto.description) {
-            restaurantsWithCategorySelectedArr.push(resto)
+        for (let i = 0; i < restaurantsFiltrePrix.length; i++) {
+            const resto = restaurantsFiltrePrix[i];
+
+            if (categorie === resto.description) {
+                restaurantsWithCategorySelectedArr.push(resto)
+            }
         }
     }
 
@@ -48,7 +53,7 @@ prixBtn.addEventListener('click', function () {
         return a.prix.length - b.prix.length
     });
 
-     restaurantsWithCategorySelectedArr.forEach(function (restaurant) {
+    restaurantsWithCategorySelectedArr.forEach(function (restaurant) {
         let card = document.createElement("li");
         card.classList.add("card");
         // card.dataset.categorie = categorie;
@@ -92,7 +97,7 @@ prixBtn.addEventListener('click', function () {
         imageReputation.classList.add("img-card");
         imageReputation.src = restaurant.imageReputation.src;
         div.appendChild(imageReputation);
-    
+
         //////////////////////////////////////
 
         let description = document.createElement("p");
@@ -109,21 +114,26 @@ distanceBtn.addEventListener('click', function () {
 
     container.innerHTML = '';
 
-    const restaurantsSelected =document.querySelector('.filtre.active');
+    const restaurantsSelected = document.querySelector('.filtre.active');
 
-    const categorie = restaurantsSelected.dataset.categorie;
 
     const restaurantsWithCategorySelectedArr = [];
-    for (let i = 0; i < restaurantsFiltreDistance.length; i++) {
-        const resto = restaurantsFiltreDistance[i];
+    if (restaurantsSelected === null) {
+        restaurantsWithCategorySelectedArr.push(...restaurants)
+    } else {
+        const categorie = restaurantsSelected.dataset.categorie;
 
-        if (categorie === resto.description) {
-            restaurantsWithCategorySelectedArr.push(resto)
+        for (let i = 0; i < restaurantsFiltreDistance.length; i++) {
+            const resto = restaurantsFiltreDistance[i];
+
+            if (categorie === resto.description) {
+                restaurantsWithCategorySelectedArr.push(resto)
+            }
         }
     }
 
     restaurantsWithCategorySelectedArr.sort((a, b) => {
-        return a.distance.length - b.distance.length
+        return a.distance - b.distance
     });
 
     restaurantsWithCategorySelectedArr.forEach(function (restaurant) {
@@ -171,7 +181,7 @@ distanceBtn.addEventListener('click', function () {
         imageReputation.classList.add("img-card");
         imageReputation.src = restaurant.imageReputation.src;
         div.appendChild(imageReputation);
-    
+
         //////////////////////////////////////
 
         let description = document.createElement("p");
@@ -187,20 +197,25 @@ noteBtn.addEventListener('click', function () {
     container.innerHTML = '';
 
     const restaurantsSelected = document.querySelector('.filtre.active');
-    
-    const categorie = restaurantsSelected.dataset.categorie;
+
 
     const restaurantsWithCategorySelectedArr = [];
-    for (let i = 0; i < restaurantsFiltreNote.length; i++) {
-        const resto = restaurantsFiltreNote[i];
+    if (restaurantsSelected === null) {
+        restaurantsWithCategorySelectedArr.push(...restaurants)
+    } else {
+        const categorie = restaurantsSelected.dataset.categorie;
 
-        if (categorie === resto.description) {
-            restaurantsWithCategorySelectedArr.push(resto)
+        for (let i = 0; i < restaurantsFiltreNote.length; i++) {
+            const resto = restaurantsFiltreNote[i];
+
+            if (categorie === resto.description) {
+                restaurantsWithCategorySelectedArr.push(resto)
+            }
         }
     }
 
     restaurantsWithCategorySelectedArr.sort((a, b) => {
-        return a.note - b.note
+        return a.reputation - b.reputation
     });
 
     restaurantsWithCategorySelectedArr.forEach(function (restaurant) {
@@ -248,7 +263,7 @@ noteBtn.addEventListener('click', function () {
         imageReputation.classList.add("img-card");
         imageReputation.src = restaurant.imageReputation.src;
         div.appendChild(imageReputation);
-    
+
         //////////////////////////////////////
 
         let description = document.createElement("p");
