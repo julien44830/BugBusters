@@ -1,4 +1,3 @@
-
 .wrapper {
 
     height: 650px;
@@ -10,7 +9,7 @@
 }
 
 .button-wrapper {
-    width:99vw;
+    width: 99vw;
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -38,21 +37,30 @@ button[data-action='slideRight'] {
     position: absolute;
     transition: all 1s ease;
 }
+
 .card-carousel {
     width: 410px;
     padding: 20px;
+
 }
 
-.img-carousel{
+.card-carousel>a {
+    text-decoration: none;
+}
+
+
+.img-carousel {
     width: 100%;
     box-shadow: 3px 2px 10px black;
     min-height: 100%;
 }
 
 
-.titre-restaurant{
+.titre-restaurant {
     position: relative;
     text-align: center;
+    /* text-decoration: none; */
+    font-size: 2rem;
     background-color: #a52a2a91;
     top: 79px;
     height: 47px;
@@ -60,6 +68,6 @@ button[data-action='slideRight'] {
     padding-top: 32px;
 }
 
-.fleche{
+.fleche {
     max-width: 100px;
 }
