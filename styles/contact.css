@@ -25,17 +25,16 @@ main {
     background-color: var(--main-background-color);
     border-radius: 10px;
     margin: 2rem 2rem 2rem 2rem;
-    height: 100%;
+    height: 75.5%;
     display: flex;
     flex-direction: column;
-    height :70%;
 }
 
 /* main  */
 div {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 10rem;
     padding: 2rem;
     justify-content: center;
 }
@@ -45,11 +44,13 @@ h2 {
     font-family: var(--primary-font-family);
     text-align: center;
     padding-top: 2rem;
+    font-size: 3rem;
 
 }
 
 #logo {
-    width: 10rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 10px;
 }
 
@@ -65,11 +66,9 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 65%;
     gap: 1.5rem;
     padding: 0;
-
-
 }
 
 li {
@@ -84,14 +83,16 @@ li {
 label {
     color: var(--primary-font-color);
     font-family: var(--secondary-font-family);
-    font-size: 1.2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 
 #message,
 #mail {
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 15px;
     width: 100%;
+    min-height: 50%;
 }
 
 
@@ -105,19 +106,21 @@ label {
 
 input {
     border: none;
+    font-size: 40px;
 }
 
 form>button {
-    width: 8rem;
-    height: 2rem;
     background-color: var(--primary-background-color);
     color: var(--primary-font-color);
     font-family: var(--primary-font-family);
-    font-size: 1rem;
-    border-radius: 10px;
+    border: none;
     margin: 1rem;
     margin-left: 40rem;
-    border: none;
+    padding: 0 2rem;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 form>button:hover {
